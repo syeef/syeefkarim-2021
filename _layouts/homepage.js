@@ -60,7 +60,7 @@ export default function HomepageLayout(props) {
         title="Cloudflare"
         tag="A dashboard to help customers manage their applications security and performance across L7, L3/L4, and secure their connection using the WARP applications."
         shortDescription="Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications."
-        demo="../images/cloudflare_WAF.svg"
+        demo="../images/Cloudflare_WAF.svg"
       />
       <Work
         logo="../images/WorldRemit.svg"
