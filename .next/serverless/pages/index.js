@@ -103,7 +103,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "J6v8");
+/******/ 	return __webpack_require__(__webpack_require__.s = "Itc4");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -14575,15 +14575,7 @@ exports.default = Node;
 
 /***/ }),
 
-/***/ "IuXR":
-/***/ (function(module, exports) {
-
-/* WEBPACK VAR INJECTION */(function(__dirname) {module.exports=(()=>{"use strict";var r={948:r=>{var e=/(?:^|,)\s*?no-cache\s*?(?:,|$)/;r.exports=fresh;function fresh(r,a){var t=r["if-modified-since"];var s=r["if-none-match"];if(!t&&!s){return false}var i=r["cache-control"];if(i&&e.test(i)){return false}if(s&&s!=="*"){var f=a["etag"];if(!f){return false}var n=true;var u=parseTokenList(s);for(var o=0;o<u.length;o++){var p=u[o];if(p===f||p==="W/"+f||"W/"+p===f){n=false;break}}if(n){return false}}if(t){var _=a["last-modified"];var c=!_||!(parseHttpDate(_)<=parseHttpDate(t));if(c){return false}}return true}function parseHttpDate(r){var e=r&&Date.parse(r);return typeof e==="number"?e:NaN}function parseTokenList(r){var e=0;var a=[];var t=0;for(var s=0,i=r.length;s<i;s++){switch(r.charCodeAt(s)){case 32:if(t===e){t=e=s+1}break;case 44:a.push(r.substring(t,e));t=e=s+1;break;default:e=s+1;break}}a.push(r.substring(t,e));return a}}};var e={};function __nccwpck_require__(a){if(e[a]){return e[a].exports}var t=e[a]={exports:{}};var s=true;try{r[a](t,t.exports,__nccwpck_require__);s=false}finally{if(s)delete e[a]}return t.exports}__nccwpck_require__.ab=__dirname+"/";return __nccwpck_require__(948)})();
-/* WEBPACK VAR INJECTION */}.call(this, "/"))
-
-/***/ }),
-
-/***/ "J6v8":
+/***/ "Itc4":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14671,11 +14663,11 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___n
         rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
         i18n: undefined,
         page: "/",
-        buildId: "HlySyohfLXGU--tAn0SzE",
-        escapedBuildId: "HlySyohfLXGU\-\-tAn0SzE",
+        buildId: "MahFjOFgFJUWyIscVSguF",
+        escapedBuildId: "MahFjOFgFJUWyIscVSguF",
         basePath: "",
         pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"02e107ec18f754c157cc9512f49b5e86",previewModeSigningKey:"55efb7d90159a33828315a1dd37057c51a227ea899bcc0b0a1ede42e25da5de4",previewModeEncryptionKey:"27a5ced3774ef08d465bd4d57fa1f396b8529db399e2e09cabc7f41ce0190875"},
+        encodedPreviewProps: {previewModeId:"b7861ec7423058589d50977451de56cd",previewModeSigningKey:"f188e7e71bb2851a775a13c63af9a1e6e25f28a282a534ac591a69a14d6276b2",previewModeEncryptionKey:"a4781ee3a8411edcc050567418996c70072657fc265c28df43baa65ba25ec2a2"},
         experimental: {
           onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
           initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -14683,6 +14675,14 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___n
       })
       
     
+
+/***/ }),
+
+/***/ "IuXR":
+/***/ (function(module, exports) {
+
+/* WEBPACK VAR INJECTION */(function(__dirname) {module.exports=(()=>{"use strict";var r={948:r=>{var e=/(?:^|,)\s*?no-cache\s*?(?:,|$)/;r.exports=fresh;function fresh(r,a){var t=r["if-modified-since"];var s=r["if-none-match"];if(!t&&!s){return false}var i=r["cache-control"];if(i&&e.test(i)){return false}if(s&&s!=="*"){var f=a["etag"];if(!f){return false}var n=true;var u=parseTokenList(s);for(var o=0;o<u.length;o++){var p=u[o];if(p===f||p==="W/"+f||"W/"+p===f){n=false;break}}if(n){return false}}if(t){var _=a["last-modified"];var c=!_||!(parseHttpDate(_)<=parseHttpDate(t));if(c){return false}}return true}function parseHttpDate(r){var e=r&&Date.parse(r);return typeof e==="number"?e:NaN}function parseTokenList(r){var e=0;var a=[];var t=0;for(var s=0,i=r.length;s<i;s++){switch(r.charCodeAt(s)){case 32:if(t===e){t=e=s+1}break;case 44:a.push(r.substring(t,e));t=e=s+1;break;default:e=s+1;break}}a.push(r.substring(t,e));return a}}};var e={};function __nccwpck_require__(a){if(e[a]){return e[a].exports}var t=e[a]={exports:{}};var s=true;try{r[a](t,t.exports,__nccwpck_require__);s=false}finally{if(s)delete e[a]}return t.exports}__nccwpck_require__.ab=__dirname+"/";return __nccwpck_require__(948)})();
+/* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
 
@@ -15243,7 +15243,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-144e5fa6fafab6397d9c.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/HlySyohfLXGU--tAn0SzE/_buildManifest.js\",\"static/HlySyohfLXGU--tAn0SzE/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/a59e1186a7dee234beed.css\",\"static/chunks/pages/index-e36b7a0faf8b081251bf.js\"],\"/_app\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/css/603bbc482b11599cdf3c.css\",\"static/chunks/pages/_app-c2e865c0177baccef6da.js\"],\"/_error\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/pages/_error-d2f25cf19b1ec99556f3.js\"],\"/articles\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/033aae265eb72c5bc455.css\",\"static/chunks/pages/articles-bf9e89ec127c435620b3.js\"],\"/articles/[slug]\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/033aae265eb72c5bc455.css\",\"static/chunks/pages/articles/[slug]-e2bb0c230fa3281432f4.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-144e5fa6fafab6397d9c.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/MahFjOFgFJUWyIscVSguF/_buildManifest.js\",\"static/MahFjOFgFJUWyIscVSguF/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/a59e1186a7dee234beed.css\",\"static/chunks/pages/index-ba0dc4977df7826fc435.js\"],\"/_app\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/css/603bbc482b11599cdf3c.css\",\"static/chunks/pages/_app-c2e865c0177baccef6da.js\"],\"/_error\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/pages/_error-d2f25cf19b1ec99556f3.js\"],\"/articles\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/033aae265eb72c5bc455.css\",\"static/chunks/pages/articles-bf9e89ec127c435620b3.js\"],\"/articles/[slug]\":[\"static/chunks/main-0a78553b36cf832db17e.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.6382634e301632d71f83.js\",\"static/chunks/483880e066922ed8ede662b38484274770ef775a.b3dc158f1b171b8d07f0.js\",\"static/css/033aae265eb72c5bc455.css\",\"static/chunks/pages/articles/[slug]-e2bb0c230fa3281432f4.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -16729,7 +16729,7 @@ function HomepageLayout(props) {
       title: "Cloudflare",
       tag: "A dashboard to help customers manage their applications security and performance across L7, L3/L4, and secure their connection using the WARP applications.",
       shortDescription: "Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications.",
-      demo: "../images/cloudflare_WAF.svg"
+      demo: "../images/Cloudflare_WAF.svg"
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(Work, {
       logo: "../images/WorldRemit.svg",
       title: "WorldRemit",
