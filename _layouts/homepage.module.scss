@@ -1,0 +1,72 @@
+// variables
+$gradient: linear-gradient(
+  45deg,
+  #e2a634,
+  #d86b34,
+  #c1363f,
+  #a6529a,
+  #645ca3,
+  #475a95
+);
+
+// animations
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+// page basics
+.pageContainer {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+// styles
+.hero {
+  animation: bg-animation 60s infinite alternate;
+  background-image: $gradient;
+  background-size: 400%;
+  margin-top: -56px;
+  min-height: 75vh;
+  h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 64px;
+  padding: 80px 0 0 0;
+  width: 50%;
+  p {
+    font-size: 1.25rem;
+    padding: 24px 0 0 0;
+  }
+}
+.logopoolWrapper {
+  color: #adadad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 24px 0 0 0;
+  text-align: center;
+  .logopool {
+    display: flex;
+    justify-content: space-around;
+  }
+}
