@@ -70,3 +70,10 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+
+@media (max-width: 688px) {
+  body {
+    min-width: fit-content;
+    min-height: -webkit-fill-available;
+  }
+}

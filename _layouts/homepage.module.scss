@@ -8,6 +8,15 @@ $gradient: linear-gradient(
   #645ca3,
   #475a95
 );
+// $gradient: conic-gradient(
+//   at 40% 75%,
+//   #e2a634,
+//   #d86b34 20%,
+//   #c1363f 35%,
+//   #a6529a 75%,
+//   #645ca3 90%,
+//   #475a95 100%
+// );
 
 // animations
 @keyframes bg-animation {
@@ -18,6 +27,14 @@ $gradient: linear-gradient(
     background-position: right;
   }
 }
+// @keyframes rotate-hue {
+//   from {
+//     filter: hue-rotate(0deg);
+//   }
+//   to {
+//     filter: hue-rotate(360deg);
+//   }
+// }
 
 // page basics
 .pageContainer {
@@ -47,12 +64,41 @@ $gradient: linear-gradient(
   }
 }
 
+// .hero {
+//   animation: rotate-hue 30s linear infinite;
+//   background-image: $gradient;
+//   filter: blur(12px);
+//   -webkit-filter: blur(12px);
+//   backdrop-filter: blur(12px);
+//   margin-top: -56px;
+//   min-height: 75vh;
+//   h1 {
+//     font-family: "DM Sans", sans-serif;
+//     font-size: 5rem;
+//     font-weight: 700;
+//     margin-block-start: 0em;
+//     margin-block-end: 0em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//   }
+// }
+
+// @media (max-width: 688px) {
+//   .hero {
+//     min-height: -webkit-fill-available;
+//     h1 {
+//       font-size: 4rem;
+//     }
+//   }
+// }
+
 .heroContent {
   display: flex;
   flex-direction: column;
   margin: 0 64px;
   padding: 80px 0 0 0;
   width: 50%;
+  z-index: 900;
   p {
     font-size: 1.25rem;
     padding: 24px 0 0 0;

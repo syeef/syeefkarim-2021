@@ -3,12 +3,11 @@ import styles from "./work.module.scss";
 export default function Work({ logo, title, tag, shortDescription, demo }) {
   return (
     <section className={styles.work}>
-      {/* <h1>{title ?? "Company Name"}</h1> */}
-      <img src={logo} />
       <div className={styles.content}>
         <div className={styles.meta}>
+          <img className={styles.logoStyle} src={logo} />
           <h4 className={styles.tag}>{tag ?? "One line tag"}</h4>
-          <div className={styles.description}>
+          <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>
           <div>Links to more</div>
