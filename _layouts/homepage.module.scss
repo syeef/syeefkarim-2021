@@ -1,40 +1,42 @@
 // variables
-$gradient: linear-gradient(
-  45deg,
-  #e2a634,
-  #d86b34,
-  #c1363f,
-  #a6529a,
-  #645ca3,
-  #475a95
-);
-// $gradient: conic-gradient(
-//   at 40% 75%,
+// $gradient: linear-gradient(
+//   45deg,
 //   #e2a634,
-//   #d86b34 20%,
-//   #c1363f 35%,
-//   #a6529a 75%,
-//   #645ca3 90%,
-//   #475a95 100%
+//   #d86b34,
+//   #c1363f,
+//   #a6529a,
+//   #645ca3,
+//   #475a95
 // );
 
+$gradient: conic-gradient(
+  at 45% 70%,
+  #ce8700,
+  #d86b34 20%,
+  #c1363f 30%,
+  #9834ca 70%,
+  #ce8700 80%
+);
+
 // animations
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
-// @keyframes rotate-hue {
-//   from {
-//     filter: hue-rotate(0deg);
+// @keyframes bg-animation {
+//   0% {
+//     background-position: left;
 //   }
-//   to {
-//     filter: hue-rotate(360deg);
+//   100% {
+//     background-position: right;
 //   }
 // }
+@keyframes rotate-hue {
+  from {
+    filter: blur(4px) hue-rotate(-30deg);
+    -webkit-filter: blur(4px) hue-rotate(-30deg);
+  }
+  to {
+    filter: blur(4px) hue-rotate(0deg);
+    -webkit-filter: blur(4px) hue-rotate(0deg);
+  }
+}
 
 // page basics
 .pageContainer {
@@ -47,29 +49,10 @@ $gradient: linear-gradient(
 }
 
 // styles
-.hero {
-  animation: bg-animation 60s infinite alternate;
-  background-image: $gradient;
-  background-size: 400%;
-  margin-top: -56px;
-  min-height: 75vh;
-  h1 {
-    font-family: "DM Sans", sans-serif;
-    font-size: 5rem;
-    font-weight: 700;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-}
-
 // .hero {
-//   animation: rotate-hue 30s linear infinite;
+//   animation: bg-animation 60s infinite alternate;
 //   background-image: $gradient;
-//   filter: blur(12px);
-//   -webkit-filter: blur(12px);
-//   backdrop-filter: blur(12px);
+//   background-size: 400%;
 //   margin-top: -56px;
 //   min-height: 75vh;
 //   h1 {
@@ -83,6 +66,35 @@ $gradient: linear-gradient(
 //   }
 // }
 
+.hero {
+  border-radius: 0 0 40px 40px;
+  margin: -56px 32px 0 32px;
+  min-height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+.heroBackground {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  animation: rotate-hue 60s ease-in-out infinite;
+  animation-direction: alternate;
+  background-image: $gradient;
+  width: 100%;
+  height: 100%;
+  // width: calc(100% + 48px);
+  // height: calc(100% + 48px);
+}
+.hero h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 // @media (max-width: 688px) {
 //   .hero {
 //     min-height: -webkit-fill-available;
@@ -95,7 +107,7 @@ $gradient: linear-gradient(
 .heroContent {
   display: flex;
   flex-direction: column;
-  margin: 0 64px;
+  margin: 0 32px;
   padding: 80px 0 0 0;
   width: 50%;
   z-index: 900;
@@ -104,6 +116,7 @@ $gradient: linear-gradient(
     padding: 24px 0 0 0;
   }
 }
+
 .logopoolWrapper {
   color: #adadad;
   display: flex;

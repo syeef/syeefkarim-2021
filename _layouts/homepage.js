@@ -27,6 +27,7 @@ export default function HomepageLayout(props) {
       <div ref={sentinelRef}></div>
       <Navbar sentinelRef={sentinelRef} />
       <div className={styles.hero}>
+        <div className={styles.heroBackground} />
         <div className={styles.heroContent}>
           <h1>Hey, I'm Syeef and I'm a Product Designer.</h1>
           <p>📍 London, UK</p>
@@ -59,6 +60,7 @@ export default function HomepageLayout(props) {
         logo="../images/Cloudflare.svg"
         title="Cloudflare"
         tag="A dashboard to help customers manage their applications security and performance across L7, L3/L4, and secure their connection using the WARP applications."
+        date="January 2019 - Today"
         shortDescription="Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications."
         demo="../images/Cloudflare_WAF.svg"
       />
@@ -66,12 +68,16 @@ export default function HomepageLayout(props) {
         logo="../images/WorldRemit.svg"
         title="WorldRemit"
         tag="An Android and iOS Mobile App to help customers send and receive money abroad."
+        date="April 2017 - December 2018"
+        demo="../images/WorldRemit_Transfer.svg"
       />
       <Work
         logo="../images/CapitalOne.svg"
         title="Capital One"
         tag="An Android and iOS Mobile App to help customers manage their account."
+        date="August 2014 - May 2017"
         shortDescription="During my time at Capital One I was heavily involved with the conception, ideation, user understanding and execution of their mobile app, for both the Android and iOS platform. The app is used by customers to service their credit card by viewing transactions, making payments and address issues with their account."
+        demo="../images/CapitalOne_App.svg"
       />
       <Work
         logo="../images/MLH.svg"

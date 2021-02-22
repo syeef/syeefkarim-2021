@@ -1,5 +1,6 @@
 .work {
   height: -webkit-fill-available;
+  padding: 64px 0 0 0;
   .content {
     display: flex;
     flex-direction: column;
@@ -11,6 +12,12 @@
       font-size: 1.5rem;
       margin: 24px 0 0 0;
       padding: 24px 0;
+    }
+    .date {
+      text-transform: uppercase;
+      font-family: "DM Mono", monospace;
+      font-size: 0.75rem;
+      padding: 24px 0 0 0;
     }
     .shortDescription {
       font-size: 1.75rem;
