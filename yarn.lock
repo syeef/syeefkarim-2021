@@ -2148,6 +2148,11 @@ native-url@0.3.4:
   dependencies:
     querystring "^0.2.0"
 
+next-themes@0.0.13-beta.1:
+  version "0.0.13-beta.1"
+  resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.0.13-beta.1.tgz#ade850c2ffe83bb37c89a3f4a71ba12df60c120d"
+  integrity sha512-ZpHbZeeIbOnSuscb4FDi+E9VAj8aCOnNyYni3HVaYgl7Nt8HQr+kvi+7BicXGdPXI2u8G50jIHOtzP6+z4i6gA==
+
 next@^10.0.3:
   version "10.0.6"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.6.tgz#1d33723d714c85f282b9bf6ff59dcae40f9252cb"

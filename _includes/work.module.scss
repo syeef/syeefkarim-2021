@@ -6,6 +6,12 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0px 40px;
+    .logoStyle {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
     .tag {
       border-top: 1px #000000 solid;
       border-bottom: 1px #000000 solid;
@@ -16,7 +22,7 @@
     .date {
       text-transform: uppercase;
       font-family: "DM Mono", monospace;
-      font-size: 0.75rem;
+      font-size: 1rem;
       padding: 24px 0 0 0;
     }
     .shortDescription {
@@ -30,7 +36,10 @@
 }
 
 .visuals {
-  margin: 64px 0 0 0;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 50%;
   img {
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -50,11 +59,20 @@
       .visuals {
         flex-grow: 1;
       }
+      .logoStyle {
+        display: unset;
+        margin-left: unset;
+        margin-right: unset;
+        width: unset;
+      }
       .tag {
         width: 40ch;
         font-size: 1.25rem;
         // margin: 24px 0 0 0;
         padding: 24px 0;
+      }
+      .date {
+        font-size: 0.8rem;
       }
       .shortDescription {
         font-size: 1.25rem;
@@ -64,7 +82,9 @@
     }
   }
   .visuals {
-    margin: unset;
+    margin-top: unset;
+    margin-left: unset;
+    margin-right: unset;
     padding: 32px 0 0 0;
     img {
       transform: perspective(1500px) rotateY(-15deg);

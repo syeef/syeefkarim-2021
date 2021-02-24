@@ -25,8 +25,22 @@
 //   }
 // }
 
+:root {
+  /* Your default theme */
+  body {
+    background-color: #fff;
+  }
+}
+
+[data-theme="dark"] {
+  body {
+    background-color: #1d1f20;
+    color: white;
+  }
+}
+
 body {
-  background-color: #fafafa;
+  // background-color: #fafafa;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   margin: 0;

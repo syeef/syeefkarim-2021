@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "@includes/navbar";
 import Work from "@includes/work";
 import Footer from "@includes/footer";
+import { ThemeChanger } from "@includes/theme";
 
 import styles from "./homepage.module.scss";
 import { useRef } from "react";
@@ -35,6 +36,7 @@ export default function HomepageLayout(props) {
           <p>👍🏽 I enjoy making cool products with fun teams</p>
         </div>
       </div>
+      {/* <ThemeChanger /> */}
 
       {/* <div className={styles.logopoolWrapper}>
         <div>
