@@ -2,6 +2,7 @@ import styles from "./work.module.scss";
 
 export default function Work({
   logo,
+  svg,
   title,
   tag,
   date,
@@ -12,7 +13,8 @@ export default function Work({
     <section className={styles.work}>
       <div className={styles.content}>
         <div className={styles.meta}>
-          <img className={styles.logoStyle} src={logo} />
+          {/* <img className={styles.logoStyle} src={logo} /> */}
+          <div>{svg}</div>
           <h4 className={styles.tag}>{tag ?? "One line tag"}</h4>
           {date && <h4 className={styles.date}>{date}</h4>}
           <div className={styles.shortDescription}>

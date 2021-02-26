@@ -99,3 +99,17 @@
     }
   }
 }
+
+[data-theme="dark"] {
+  .work {
+    .content {
+      .tag {
+        border-top: 1px #ffffff solid;
+        border-bottom: 1px #ffffff solid;
+      }
+      svg {
+        fill: #888f96;
+      }
+    }
+  }
+}
