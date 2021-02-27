@@ -1,5 +1,5 @@
 // variables
-$gradientLinear: linear-gradient(
+$linearGradient: linear-gradient(
   45deg,
   #e2a634,
   #d86b34,
@@ -9,7 +9,7 @@ $gradientLinear: linear-gradient(
   #475a95
 );
 
-$gradient: conic-gradient(
+$conicGradient: conic-gradient(
   at 45% 70%,
   #ce8700,
   #d86b34 20%,
@@ -19,7 +19,7 @@ $gradient: conic-gradient(
 );
 
 // animations
-@keyframes bg-animation {
+@keyframes translate-background-position {
   0% {
     background-position: left;
   }
@@ -59,27 +59,25 @@ $gradient: conic-gradient(
   display: block;
   position: absolute;
   z-index: -1;
-  animation: bg-animation 60s ease-in-out infinite;
+  animation: translate-background-position 60s ease-in-out infinite;
   animation-direction: alternate;
-  background-image: $gradientLinear;
+  background-image: $linearGradient;
   background-size: 400%;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 .heroContent {
   display: flex;
   flex-direction: column;
   margin: 0 32px;
   padding: 80px 0 0 0;
-  // width: 50%;
-  // z-index: 900;
   p {
     font-size: 1.25rem;
     padding: 24px 0 0 0;
   }
   h1 {
     font-family: "DM Sans", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -94,43 +92,32 @@ $gradient: conic-gradient(
     margin: -56px 32px 0 32px;
     min-height: 75vh;
     overflow: hidden;
-    position: relative;
   }
   .heroBackground {
-    display: block;
-    position: absolute;
-    z-index: -1;
     animation: rotate-hue 60s ease-in-out infinite;
     animation-direction: alternate;
-    background-image: $gradient;
+    background-image: $conicGradient;
     background-size: unset;
-    width: 100%;
-    height: 100%;
   }
   .heroContent {
-    display: flex;
-    flex-direction: column;
-    margin: 0 32px;
-    padding: 80px 0 0 0;
     width: 50%;
-    z-index: 900;
     p {
-      font-size: 1.25rem;
-      padding: 24px 0 0 0;
     }
     h1 {
-      font-family: "DM Sans", sans-serif;
-      font-size: 5rem;
-      font-weight: 700;
-      // margin-block-start: 0em;
-      // margin-block-end: 0em;
-      // margin-inline-start: 0px;
-      // margin-inline-end: 0px;
     }
   }
 }
 
 [data-theme="dark"] {
+  $gradient: conic-gradient(
+    at 45% 70%,
+    #16e334,
+    #d86b34 20%,
+    #c1363f 30%,
+    #9834ca 70%,
+    #ce8700 80%
+  );
+
   .hero {
     color: #ffffff;
   }

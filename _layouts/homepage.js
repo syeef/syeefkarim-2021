@@ -31,8 +31,8 @@ export default function HomepageLayout(props) {
       <div className={styles.hero}>
         <div className={styles.heroBackground} />
         <div className={styles.heroContent}>
-          <h1>Hey, I'm Syeef and I'm a Product Designer.</h1>
-          <p>💻 Senior Product Designer at Cloudflare</p>
+          <h1>Hey, I'm Syeef.</h1>
+          <p>I'm currently a Product Designer at Cloudflare.</p>
         </div>
       </div>
       {/* <ThemeChanger /> */}
@@ -131,7 +131,18 @@ export default function HomepageLayout(props) {
           </>
         }
         title="Cloudflare"
-        tag="A dashboard to help customers manage the security and performance of their applications across the Network and Application layers and secure their connection using the WARP applications."
+        tag={
+          <>
+            <p>
+              A dashboard to help customers manage the security and performance
+              of their applications across the Network and Application layers.
+            </p>
+            <p>
+              An Android, iOS, macOS, and Windows App to help customers improve
+              the security and performance of their Network connection.
+            </p>
+          </>
+        }
         date="January 2019 - Today"
         shortDescription="Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications."
         demo="../images/Cloudflare_WAF.svg"
