@@ -206,7 +206,7 @@ export default function Blog(props) {
         title="Capital One"
         tag="An Android and iOS Mobile App to help customers manage their account."
         date="August 2014 - May 2017"
-        shortDescription="During my time at Capital One I was heavily involved with the conception, ideation, user understanding and execution of their mobile app, for both the Android and iOS platform. The app is used by customers to service their credit card by viewing transactions, making payments and address issues with their account."
+        shortDescription="I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information."
         demo="../images/CapitalOne_App.svg"
       />
       <Work
