@@ -1,4 +1,5 @@
 import styles from "./footer.module.scss";
+import Link from "next/link";
 
 // _includes/footer.js
 export default function Footer() {
@@ -6,52 +7,52 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
         <div>
-          <span className={styles.title}>Socials</span>
           <ul>
             <li>
-              Twitter:{" "}
               <a href="https://twitter.com/syeefk" target="_blank">
-                @syeefk
+                Twitter
               </a>
             </li>
             <li>
-              Dribbble:{" "}
               <a href="https://dribbble.com/syeef" target="_blank">
-                syeef
+                Dribbble
               </a>
             </li>
             <li>
-              GitHub:{" "}
               <a href="https://github.com/syeef" target="_blank">
-                syeef
+                GitHub
               </a>
             </li>
             <li>
-              LinkedIn:{" "}
               <a href="https://uk.linkedin.com/in/syeefkarim/" target="_blank">
-                Syeef Karim
+                LinkedIn
               </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span className={styles.title}>Recent Posts</span>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Articles</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-
-        <div>
-          <span className={styles.title}>Navigation</span>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Articles</li>
-            <li>Contact</li>
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/notes">
+                <a>Notes</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>Contact</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
