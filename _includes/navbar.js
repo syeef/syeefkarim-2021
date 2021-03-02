@@ -26,14 +26,16 @@ export default function Navbar(props) {
 
   return (
     <header
-      className={isGlassy ? styles.glassyHeader : styles.header}
+      className={
+        isGlassy ? styles.glassyHeader : `${styles.header} ${props.className}`
+      }
       ref={navRef}
     >
-      <Link href="/">
-        <a>
-          <span>Syeef Karim</span>
-        </a>
-      </Link>
+      <nav>
+        <Link href="/">
+          <a className={styles.heroLink}>Syeef Karim</a>
+        </Link>
+      </nav>
       <nav className={styles.navigationBar}>
         <ul>
           <li>

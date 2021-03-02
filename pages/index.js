@@ -133,6 +133,21 @@ export default function Blog(props) {
         title="WorldRemit"
         tag="An Android and iOS Mobile App to help customers send and receive money abroad."
         date="April 2017 - December 2018"
+        shortDescription={
+          <>
+            <p>
+              Led the design effort on various new features of the mobile app
+              such as: transaction status, managing personal details, and
+              refining the transfer journey.
+            </p>
+            <p>
+              As part of the Wallet Team, I led the conception, validation, and
+              subsequent iterations of the WorldRemit Wallet. This was a feature
+              integrated into the main app, however this allowed customers in
+              selected regions to store funds.
+            </p>
+          </>
+        }
         demo="../images/WorldRemit_Transfer.svg"
       />
       <Work
@@ -205,7 +220,7 @@ export default function Blog(props) {
         }
         title="Capital One"
         tag="An Android and iOS Mobile App to help customers manage their account."
-        date="August 2014 - May 2017"
+        date="August 2014 - April 2017"
         shortDescription="I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information."
         demo="../images/CapitalOne_App.svg"
       />

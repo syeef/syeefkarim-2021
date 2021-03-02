@@ -27,7 +27,7 @@ export default function HomepageLayout(props) {
         ></link>
       </Head>
       <div ref={sentinelRef}></div>
-      <Navbar sentinelRef={sentinelRef} />
+      <Navbar sentinelRef={sentinelRef} className={styles.homepageOverride} />
 
       <div className={styles.hero}>
         <div className={styles.heroBackground} />

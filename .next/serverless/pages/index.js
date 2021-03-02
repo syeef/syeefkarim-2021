@@ -103,7 +103,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "h/PV");
+/******/ 	return __webpack_require__(__webpack_require__.s = "SD5E");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6980,12 +6980,13 @@ function Navbar(props) {
     observer.current.observe(props.sentinelRef.current);
   }, [props.sentinelRef]);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("header", {
-    className: isGlassy ? _navbar_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.glassyHeader : _navbar_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.header,
+    className: isGlassy ? _navbar_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.glassyHeader : `${_navbar_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.header} ${props.className}`,
     ref: navRef,
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("nav", {
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+          className: _navbar_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.heroLink,
           children: "Syeef Karim"
         })
       })
@@ -15149,7 +15150,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/j9FzhxWLDFpRtYA8SocpQ/_buildManifest.js\",\"static/j9FzhxWLDFpRtYA8SocpQ/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/4026e0815af1576ed991.css\",\"static/chunks/pages/index-83bd14fe4ab5d96a94cd.js\"],\"/_app\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/4c5fc6d4d9361e5bcad5.css\",\"static/chunks/pages/_app-30dbed7f2a9a2f16c26f.js\"],\"/_error\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6ee0039f50785f527ba5.js\"],\"/articles/[slug]\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/8f3e6122888d293e6cd2.css\",\"static/chunks/pages/articles/[slug]-19c8af8e5efee9cb4585.js\"],\"/notes\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/eeb942bbe3f0c089a053.css\",\"static/chunks/pages/notes-f0a7eb1df8185525ebce.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/8u0MfOUWRmOcKWr4w0JhD/_buildManifest.js\",\"static/8u0MfOUWRmOcKWr4w0JhD/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/5d518e8da0a67653c176.css\",\"static/chunks/pages/index-81d3aa9547fe10e562b2.js\"],\"/_app\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/e856739b3dc5b94a444e.css\",\"static/chunks/pages/_app-8a52d8968f777c8a574d.js\"],\"/_error\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6ee0039f50785f527ba5.js\"],\"/articles/[slug]\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/4d88f8e32d8bb71deb97.css\",\"static/chunks/pages/articles/[slug]-dc46cdcb8e536ce20e5c.js\"],\"/notes\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/4cf90aa75ab6159222e8.css\",\"static/chunks/pages/notes-c53eea426783a1cfd977.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -16667,7 +16668,8 @@ function HomepageLayout(props) {
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])("div", {
       ref: sentinelRef
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(navbar["a" /* default */], {
-      sentinelRef: sentinelRef
+      sentinelRef: sentinelRef,
+      className: homepage_module_default.a.homepageOverride
     }), /*#__PURE__*/Object(jsx_runtime["jsxs"])("div", {
       className: homepage_module_default.a.hero,
       children: [/*#__PURE__*/Object(jsx_runtime["jsx"])("div", {
@@ -16823,6 +16825,13 @@ function Blog(props) {
       title: "WorldRemit",
       tag: "An Android and iOS Mobile App to help customers send and receive money abroad.",
       date: "April 2017 - December 2018",
+      shortDescription: /*#__PURE__*/Object(jsx_runtime["jsxs"])(jsx_runtime["Fragment"], {
+        children: [/*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
+          children: "Led the design effort on various new features of the mobile app such as: transaction status, managing personal details, and refining the transfer journey."
+        }), /*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
+          children: "As part of the Wallet Team, I led the conception, validation, and subsequent iterations of the WorldRemit Wallet. This was a feature integrated into the main app, however this allowed customers in selected regions to store funds."
+        })]
+      }),
       demo: "../images/WorldRemit_Transfer.svg"
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(Work, {
       svg: /*#__PURE__*/Object(jsx_runtime["jsx"])(jsx_runtime["Fragment"], {
@@ -16881,7 +16890,7 @@ function Blog(props) {
       }),
       title: "Capital One",
       tag: "An Android and iOS Mobile App to help customers manage their account.",
-      date: "August 2014 - May 2017",
+      date: "August 2014 - April 2017",
       shortDescription: "I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information.",
       demo: "../images/CapitalOne_App.svg"
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(Work, {
@@ -17272,6 +17281,109 @@ const tag=cipher.getAuthTag();return Buffer.concat([// Data as required by:
 salt,iv,tag,encrypted]).toString(`hex`);}function decryptWithSecret(secret,encryptedData){const buffer=Buffer.from(encryptedData,`hex`);const salt=buffer.slice(0,CIPHER_SALT_LENGTH);const iv=buffer.slice(CIPHER_SALT_LENGTH,CIPHER_SALT_LENGTH+CIPHER_IV_LENGTH);const tag=buffer.slice(CIPHER_SALT_LENGTH+CIPHER_IV_LENGTH,CIPHER_SALT_LENGTH+CIPHER_IV_LENGTH+CIPHER_TAG_LENGTH);const encrypted=buffer.slice(CIPHER_SALT_LENGTH+CIPHER_IV_LENGTH+CIPHER_TAG_LENGTH);// https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2sync_password_salt_iterations_keylen_digest
 const key=_crypto.default.pbkdf2Sync(secret,salt,PBKDF2_ITERATIONS,CIPHER_KEY_LENGTH,`sha512`);const decipher=_crypto.default.createDecipheriv(CIPHER_ALGORITHM,key,iv);decipher.setAuthTag(tag);return decipher.update(encrypted)+decipher.final(`utf8`);}
 //# sourceMappingURL=crypto-utils.js.map
+
+/***/ }),
+
+/***/ "SD5E":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
+/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
+var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
+/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
+var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
+/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
+var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
+
+      
+      
+      
+      
+      
+      
+  
+      
+      const { processEnv } = __webpack_require__("fXeI")
+      processEnv([])
+    
+      
+      const runtimeConfig = {}
+      
+  
+      const appMod = __webpack_require__("1TCz")
+      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
+  
+      const compMod = __webpack_require__("RNiq")
+  
+      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
+      /* harmony default export */ __webpack_exports__["default"] = (Component);
+      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
+      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
+      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
+  
+      // kept for detecting legacy exports
+      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
+      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
+      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
+      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
+  
+      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
+      const _app = App
+  
+      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
+        pageModule: compMod,
+        pageComponent: Component,
+        pageConfig: config,
+        appModule: App,
+        documentModule: __webpack_require__("VDXt"),
+        errorModule: __webpack_require__("/a9y"),
+        notFoundModule: undefined,
+        pageGetStaticProps: getStaticProps,
+        pageGetStaticPaths: getStaticPaths,
+        pageGetServerSideProps: getServerSideProps,
+  
+        assetPrefix: "",
+        canonicalBase: "",
+        generateEtags: true,
+        poweredByHeader: true,
+  
+        runtimeConfig,
+        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
+        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
+  
+        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
+        i18n: undefined,
+        page: "/",
+        buildId: "8u0MfOUWRmOcKWr4w0JhD",
+        escapedBuildId: "8u0MfOUWRmOcKWr4w0JhD",
+        basePath: "",
+        pageIsDynamic: false,
+        encodedPreviewProps: {previewModeId:"a892707516477e1bf81ae873f2d05b3c",previewModeSigningKey:"a77eb94a7c62d07642ed1a3fa2de923f0168e6136c3a6f8194649cd6e1c49c8c",previewModeEncryptionKey:"d51b688c8090802030fa0920a60a2074175b4bfa764495dbd0d11ff71ea73c43"},
+        experimental: {
+          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
+          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
+        }
+      })
+      
+    
 
 /***/ }),
 
@@ -27056,109 +27168,6 @@ exports.parse = parse;
 
 /***/ }),
 
-/***/ "h/PV":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
-/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
-var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
-/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
-var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
-/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
-var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
-
-      
-      
-      
-      
-      
-      
-  
-      
-      const { processEnv } = __webpack_require__("fXeI")
-      processEnv([])
-    
-      
-      const runtimeConfig = {}
-      
-  
-      const appMod = __webpack_require__("1TCz")
-      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
-  
-      const compMod = __webpack_require__("RNiq")
-  
-      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
-      /* harmony default export */ __webpack_exports__["default"] = (Component);
-      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
-      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
-      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
-  
-      // kept for detecting legacy exports
-      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
-      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
-      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
-      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
-  
-      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
-      const _app = App
-  
-      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
-        pageModule: compMod,
-        pageComponent: Component,
-        pageConfig: config,
-        appModule: App,
-        documentModule: __webpack_require__("VDXt"),
-        errorModule: __webpack_require__("/a9y"),
-        notFoundModule: undefined,
-        pageGetStaticProps: getStaticProps,
-        pageGetStaticPaths: getStaticPaths,
-        pageGetServerSideProps: getServerSideProps,
-  
-        assetPrefix: "",
-        canonicalBase: "",
-        generateEtags: true,
-        poweredByHeader: true,
-  
-        runtimeConfig,
-        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
-        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
-  
-        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
-        i18n: undefined,
-        page: "/",
-        buildId: "j9FzhxWLDFpRtYA8SocpQ",
-        escapedBuildId: "j9FzhxWLDFpRtYA8SocpQ",
-        basePath: "",
-        pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"18581c5b38ca1141ec2215a698c50e59",previewModeSigningKey:"a452b9a88acc81a86e7842ebdba2a5a14cd153af6785535e5f34b8ceb9410cdd",previewModeEncryptionKey:"895a6987b576bb994c63e7e35222548eec773410fe83de88c44242e5e3416ce3"},
-        experimental: {
-          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
-          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
-        }
-      })
-      
-    
-
-/***/ }),
-
 /***/ "hHSr":
 /***/ (function(module) {
 
@@ -34015,7 +34024,9 @@ module.exports = {
 	"heroBackground": "homepage_heroBackground__3KYKM",
 	"translate-background-position": "homepage_translate-background-position__1jVTs",
 	"heroContent": "homepage_heroContent__1ptM_",
-	"rotate-hue": "homepage_rotate-hue__2TlfP"
+	"rotate-hue": "homepage_rotate-hue__2TlfP",
+	"homepageOverride": "homepage_homepageOverride__1I2ZG",
+	"glassyHeader": "homepage_glassyHeader__3lY0B"
 };
 
 
