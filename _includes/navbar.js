@@ -47,8 +47,8 @@ export default function Navbar(props) {
             </Link>
           </li>
           <li>
-            <Link href="articles">
-              <a>Articles</a>
+            <Link href="/notes">
+              <a>Notes</a>
             </Link>
           </li>
           <li>

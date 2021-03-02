@@ -1,0 +1,9 @@
+.pageContainer {
+  padding: 0 64px;
+  font-size: 1.15rem;
+  display: flex;
+  justify-content: center;
+  .contentWrap {
+    max-width: 336px;
+  }
+}

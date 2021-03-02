@@ -32,7 +32,7 @@ export default function HomepageLayout(props) {
       <div className={styles.hero}>
         <div className={styles.heroBackground} />
         <div className={styles.heroContent}>
-          <h1>Hey, I'm Syeef.</h1>
+          <h1>👋🏾 Hi, I'm Syeef.</h1>
           <p>I'm currently a Product Designer at Cloudflare.</p>
         </div>
       </div>
