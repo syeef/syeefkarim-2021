@@ -1,33 +1,54 @@
-.pageContainer {
-  display: flex;
-  justify-content: center;
-  .contentWrap {
-    div {
-      margin: 16px 0 0 0;
-      a {
-        // color: #f38020;
-        color: #ff6633;
-        text-decoration: none;
-        // font-size: 1.15rem;
-        font-weight: 700;
+.contentWrap {
+  div {
+    border-bottom: 1px #888f96 solid;
+    margin: 16px 16px 0 16px;
+    font-size: 1.4rem;
+    padding: 0 8px 16px 8px;
+    a {
+      color: #ff6633;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+  h2,
+  .tag {
+    text-align: center;
+  }
+  .tag {
+    font-size: 1.4rem;
+    margin: 0 0 32px 0;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .publishedDate {
+    font-family: "DM Mono", monospace;
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  width: auto;
+}
+@media (min-width: 992px) {
+  .pageContainer {
+    display: flex;
+    justify-content: center;
+    .contentWrap {
+      div {
+        border-bottom: unset;
+        margin: 16px 0 0 0;
+        font-size: unset;
+        padding: unset;
       }
+      .title {
+        font-size: unset;
+        margin-bottom: 4px;
+      }
+      .publishedDate {
+        font-size: unset;
+        margin: 4px 0 0 0;
+      }
+      width: 640px;
     }
-    h2,
-    .tag {
-      text-align: center;
-      // font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-      //   Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
-    }
-    .title {
-      margin-bottom: 4px;
-      // border: 1px solid green;
-    }
-    .publishedDate {
-      font-family: "DM Mono", monospace;
-      // font-size: 1rem;
-      // border: 1px green solid;
-      margin-top: 4px;
-    }
-    width: 640px;
   }
 }
