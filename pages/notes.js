@@ -13,11 +13,13 @@ export default function Blog(props) {
       {props.posts.map(function (post, idx) {
         return (
           <div key={idx}>
-            <Link href={"/articles/" + post.slug}>
-              <a>{post.title}</a>
-            </Link>
+            <p className={styles.title}>
+              <Link href={"/articles/" + post.slug}>
+                <a>{post.title}</a>
+              </Link>
+            </p>
             <p>{post.excerpt}</p>
-            <span className={styles.publishedDate}>{post.publishedDate}</span>
+            <p className={styles.publishedDate}>{post.publishedDate}</p>
           </div>
         );
       })}

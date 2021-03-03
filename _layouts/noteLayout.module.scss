@@ -18,9 +18,15 @@
       // font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
       //   Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
     }
+    .title {
+      margin-bottom: 4px;
+      // border: 1px solid green;
+    }
     .publishedDate {
       font-family: "DM Mono", monospace;
-      font-size: 1rem;
+      // font-size: 1rem;
+      // border: 1px green solid;
+      margin-top: 4px;
     }
     width: 640px;
   }
