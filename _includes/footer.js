@@ -56,9 +56,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div>
-        <p>💨 & ☕️</p>
-      </div>
     </footer>
   );
 }

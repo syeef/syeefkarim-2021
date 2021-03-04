@@ -10,10 +10,9 @@ const OBSERVER_OPTIONS = {
 
 export default function Navbar(props) {
   const navRef = useRef(null);
-
   const observer = useRef(null);
-
   const [isGlassy, setIsGlassy] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     observer.current = new window.IntersectionObserver((entries) => {
@@ -27,11 +26,47 @@ export default function Navbar(props) {
   return (
     <header
       className={
-        isGlassy ? styles.glassyHeader : `${styles.header} ${props.className}`
+        isGlassy
+          ? `${styles.glassyHeader} ${styles.mobileNav}`
+          : `${styles.header} ${styles.mobileNav} ${props.className}`
       }
       ref={navRef}
     >
-      <nav>
+      <button
+        className={styles.burgerMenu}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        &#9776;
+      </button>
+
+      {isMenuOpen && (
+        <nav className={styles.navigationBarMobile}>
+          <ul>
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/notes">
+                <a>Notes</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>Contact</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      )}
+
+      <nav className={styles.navigationBarLeft}>
         <Link href="/">
           <a className={styles.heroLink}>Syeef Karim</a>
         </Link>

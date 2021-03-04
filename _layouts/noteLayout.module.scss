@@ -1,9 +1,12 @@
 .contentWrap {
+  margin: 0 40px;
   div {
     border-bottom: 1px #888f96 solid;
-    margin: 16px 16px 0 16px;
     font-size: 1.4rem;
-    padding: 0 8px 16px 8px;
+    // margin: 0 40px;
+    // padding: 0 40px;
+    // margin: 16px 16px 0 16px;
+    // padding: 0 8px 16px 8px;
     a {
       color: #ff6633;
       text-decoration: none;
@@ -12,24 +15,28 @@
   }
   h2,
   .tag {
-    text-align: center;
+    // text-align: left;
   }
   .tag {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: 0 0 32px 0;
   }
   .title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 8px;
+  }
+  .excerpt {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
   }
   .publishedDate {
     font-family: "DM Mono", monospace;
     font-size: 1.1rem;
-    margin: 8px 0;
+    margin: 8px 0 24px 0;
   }
   width: auto;
 }
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .pageContainer {
     display: flex;
     justify-content: center;
@@ -40,9 +47,21 @@
         font-size: unset;
         padding: unset;
       }
+      h2 {
+        // font-size: unset;
+        text-align: center;
+      }
+      .tag {
+        font-size: 1.4rem;
+        text-align: center;
+      }
       .title {
         font-size: unset;
         margin-bottom: 4px;
+      }
+      .excerpt {
+        font-size: unset;
+        line-height: unset;
       }
       .publishedDate {
         font-size: unset;

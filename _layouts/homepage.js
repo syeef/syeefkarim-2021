@@ -11,6 +11,7 @@ import { useTheme } from "next-themes";
 
 export default function HomepageLayout(props) {
   const sentinelRef = useRef(null);
+
   return (
     <>
       <Head>
@@ -28,6 +29,13 @@ export default function HomepageLayout(props) {
       </Head>
       <div ref={sentinelRef}></div>
       <Navbar sentinelRef={sentinelRef} className={styles.homepageOverride} />
+
+      <div className={styles.heroMobile}>
+        <div className={styles.heroContentMobile}>
+          <h1>Hi, I'm Syeef.</h1>
+          <p>I'm currently a Product Designer at Cloudflare.</p>
+        </div>
+      </div>
 
       <div className={styles.hero}>
         <div className={styles.heroBackground} />

@@ -27,7 +27,8 @@
       padding: 24px 0 0 0;
     }
     .shortDescription {
-      font-size: 1.75rem;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
       padding: 24px 0;
       p:last-child {
         padding: 16px 0 0 0;
@@ -48,7 +49,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .work {
     height: 800px;
     margin: 32px 64px;

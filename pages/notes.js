@@ -18,7 +18,7 @@ export default function Blog(props) {
                 <a>{post.title}</a>
               </Link>
             </p>
-            <p>{post.excerpt}</p>
+            <p className={styles.excerpt}>{post.excerpt}</p>
             <p className={styles.publishedDate}>{post.publishedDate}</p>
           </div>
         );
