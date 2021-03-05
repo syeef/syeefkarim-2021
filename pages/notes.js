@@ -14,7 +14,7 @@ export default function Blog(props) {
         return (
           <div key={idx}>
             <p className={styles.title}>
-              <Link href={"/articles/" + post.slug}>
+              <Link href={"/notes/" + post.slug}>
                 <a>{post.title}</a>
               </Link>
             </p>
