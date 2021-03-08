@@ -8,6 +8,7 @@ export default function Work({
   date,
   shortDescription,
   demo,
+  svgContent,
 }) {
   return (
     <section className={styles.work}>
@@ -24,6 +25,7 @@ export default function Work({
         </div>
         <div className={styles.visuals}>
           <img src={demo} />
+          <>{svgContent}</>
         </div>
       </div>
     </section>

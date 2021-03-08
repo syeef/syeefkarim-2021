@@ -116,3 +116,16 @@
     }
   }
 }
+
+@keyframes rotate180 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+#Cloudflare_logo {
+  animation: rotate180 5s ease infinite;
+}

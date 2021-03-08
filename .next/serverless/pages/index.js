@@ -103,7 +103,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "3Mp5");
+/******/ 	return __webpack_require__(__webpack_require__.s = "pD3m");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -8496,109 +8496,6 @@ module.exports = (chalk, tmp) => {
 
 /***/ }),
 
-/***/ "3Mp5":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
-/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
-var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
-/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
-var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
-/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
-var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
-
-      
-      
-      
-      
-      
-      
-  
-      
-      const { processEnv } = __webpack_require__("fXeI")
-      processEnv([])
-    
-      
-      const runtimeConfig = {}
-      
-  
-      const appMod = __webpack_require__("1TCz")
-      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
-  
-      const compMod = __webpack_require__("RNiq")
-  
-      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
-      /* harmony default export */ __webpack_exports__["default"] = (Component);
-      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
-      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
-      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
-  
-      // kept for detecting legacy exports
-      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
-      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
-      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
-      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
-  
-      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
-      const _app = App
-  
-      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
-        pageModule: compMod,
-        pageComponent: Component,
-        pageConfig: config,
-        appModule: App,
-        documentModule: __webpack_require__("VDXt"),
-        errorModule: __webpack_require__("/a9y"),
-        notFoundModule: undefined,
-        pageGetStaticProps: getStaticProps,
-        pageGetStaticPaths: getStaticPaths,
-        pageGetServerSideProps: getServerSideProps,
-  
-        assetPrefix: "",
-        canonicalBase: "",
-        generateEtags: true,
-        poweredByHeader: true,
-  
-        runtimeConfig,
-        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
-        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
-  
-        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
-        i18n: undefined,
-        page: "/",
-        buildId: "I50VToNsn56112TB_dk4x",
-        escapedBuildId: "I50VToNsn56112TB_dk4x",
-        basePath: "",
-        pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"f009ca8c77d993523bc62a34325fa4f5",previewModeSigningKey:"71ee42747a0d02178c3d0b767d636acc8468bfca91d450ce0bc2d9528769e9a4",previewModeEncryptionKey:"55ae67f6dc523ce3935975730f36d18b81b3b4fb9882e1a93c3e29fd72cc9233"},
-        experimental: {
-          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
-          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
-        }
-      })
-      
-    
-
-/***/ }),
-
 /***/ "3SI8":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15284,7 +15181,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/I50VToNsn56112TB_dk4x/_buildManifest.js\",\"static/I50VToNsn56112TB_dk4x/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/c9c5340ce7bcb9e24a21.css\",\"static/chunks/pages/index-0d338a7551c422c43bd7.js\"],\"/_app\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/33ad38e7c0132927d7d1.css\",\"static/chunks/pages/_app-8a2a97aff5cb62237275.js\"],\"/_error\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6ee0039f50785f527ba5.js\"],\"/notes\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/a80b0929d84f10b288d9.css\",\"static/chunks/pages/notes-a224516b4eb118f5d6b2.js\"],\"/notes/[slug]\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/52333e4e06f6e3196498.css\",\"static/chunks/pages/notes/[slug]-de6140c206226520eb76.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/_bjqiULjKlIVvXRugzVZa/_buildManifest.js\",\"static/_bjqiULjKlIVvXRugzVZa/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/266d95ece07399b8c0d2.css\",\"static/chunks/pages/index-975e4661cdba06097f89.js\"],\"/_app\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/8121cab19f3e42d090ec.css\",\"static/chunks/pages/_app-1a4ec49fa7767c09ee07.js\"],\"/_error\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6ee0039f50785f527ba5.js\"],\"/notes\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/a64f44dd1169a30fb62d.css\",\"static/chunks/pages/notes-509cc50c84c2f6110da7.js\"],\"/notes/[slug]\":[\"static/chunks/main-ae3c436d5effebe20129.js\",\"static/chunks/webpack-50bee04d1dc61f8adf5b.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/css/bb34de1f9c196d3e9955.css\",\"static/chunks/pages/notes/[slug]-f6d2b02a5ebb699b595c.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -16589,7 +16486,9 @@ module.exports = {
 	"date": "work_date__3kHth",
 	"shortDescription": "work_shortDescription__31uy8",
 	"visuals": "work_visuals__cnPPs",
-	"meta": "work_meta__1bDGV"
+	"meta": "work_meta__1bDGV",
+	"Cloudflare_logo": "work_Cloudflare_logo___KVGd",
+	"rotate180": "work_rotate180__3rwFV"
 };
 
 
@@ -16675,6 +16574,7 @@ var work_module_default = /*#__PURE__*/__webpack_require__.n(work_module);
 
 
 
+
 function Work({
   logo,
   svg,
@@ -16682,7 +16582,8 @@ function Work({
   tag,
   date,
   shortDescription,
-  demo
+  demo,
+  svgContent
 }) {
   return /*#__PURE__*/Object(jsx_runtime["jsx"])("section", {
     className: work_module_default.a.work,
@@ -16705,11 +16606,13 @@ function Work({
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])("div", {
           children: "Links to more"
         })]
-      }), /*#__PURE__*/Object(jsx_runtime["jsx"])("div", {
+      }), /*#__PURE__*/Object(jsx_runtime["jsxs"])("div", {
         className: work_module_default.a.visuals,
-        children: /*#__PURE__*/Object(jsx_runtime["jsx"])("img", {
+        children: [/*#__PURE__*/Object(jsx_runtime["jsx"])("img", {
           src: demo
-        })
+        }), /*#__PURE__*/Object(jsx_runtime["jsx"])(jsx_runtime["Fragment"], {
+          children: svgContent
+        })]
       })]
     })
   });
@@ -16809,7 +16712,7 @@ function HomepageLayout(props) {
       children: /*#__PURE__*/Object(jsx_runtime["jsxs"])("div", {
         className: homepage_module_default.a.heroContentMobile,
         children: [/*#__PURE__*/Object(jsx_runtime["jsx"])("h1", {
-          children: "Hi, I'm Syeef."
+          children: "Hey, I'm Syeef."
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
           className: homepage_module_default.a.tag,
           children: "I'm currently a Product Designer at Cloudflare."
@@ -16822,8 +16725,9 @@ function HomepageLayout(props) {
       }), /*#__PURE__*/Object(jsx_runtime["jsxs"])("div", {
         className: homepage_module_default.a.heroContent,
         children: [/*#__PURE__*/Object(jsx_runtime["jsx"])("h1", {
-          children: "\uD83D\uDC4B\uD83C\uDFFE Hi, I'm Syeef."
+          children: "Hey, I'm Syeef."
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
+          className: homepage_module_default.a.tag,
           children: "I'm currently a Product Designer at Cloudflare."
         })]
       })]
@@ -16923,7 +16827,245 @@ function Blog(props) {
       }),
       date: "January 2019 - Today",
       shortDescription: "Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications.",
-      demo: "../images/Cloudflare_WAF.svg"
+      demo: "../images/Cloudflare_WAF.svg" // svgContent={
+      //   <>
+      //     <svg
+      //       width="800"
+      //       height="540"
+      //       viewBox="0 0 800 540"
+      //       fill="none"
+      //       xmlns="http://www.w3.org/2000/svg"
+      //     >
+      //       <g id="Frame 2" clip-path="url(#clip0)">
+      //         <rect
+      //           id="Background"
+      //           width="800"
+      //           height="540"
+      //           rx="12"
+      //           fill="#F6F8FA"
+      //         />
+      //         <g id="WAF">
+      //           <rect
+      //             id="CardBackground"
+      //             x="166.5"
+      //             y="148.5"
+      //             width="467"
+      //             height="111"
+      //             rx="7.5"
+      //             fill="white"
+      //             stroke="#B7BBBD"
+      //           />
+      //           <g id="Row[0]">
+      //             <rect
+      //               id="Configuration"
+      //               x="578"
+      //               y="164"
+      //               width="40"
+      //               height="8"
+      //               rx="1"
+      //               fill="#2C7CB0"
+      //             />
+      //             <g id="Switch">
+      //               <rect
+      //                 id="SwitchBackground"
+      //                 x="538"
+      //                 y="164"
+      //                 width="24"
+      //                 height="8"
+      //                 rx="1"
+      //                 fill="#B7BBBD"
+      //               />
+      //               <rect
+      //                 id="SwitchForeground"
+      //                 x="538"
+      //                 y="164"
+      //                 width="12"
+      //                 height="8"
+      //                 rx="1"
+      //                 fill="#62676A"
+      //               />
+      //             </g>
+      //             <rect
+      //               id="Description"
+      //               x="304"
+      //               y="164"
+      //               width="202"
+      //               height="32"
+      //               rx="1"
+      //               fill="#B7BBBD"
+      //             />
+      //             <rect
+      //               id="Title"
+      //               x="182"
+      //               y="164"
+      //               width="98"
+      //               height="8"
+      //               rx="1"
+      //               fill="#B7BBBD"
+      //             />
+      //           </g>
+      //           <g id="Row[1]">
+      //             <rect
+      //               id="Configuration_2"
+      //               x="578"
+      //               y="212"
+      //               width="40"
+      //               height="8"
+      //               rx="1"
+      //               fill="#2C7CB0"
+      //             />
+      //             <g id="Switch_2">
+      //               <rect
+      //                 id="SwitchBackground_2"
+      //                 x="538"
+      //                 y="212"
+      //                 width="24"
+      //                 height="8"
+      //                 rx="1"
+      //                 fill="#B7BBBD"
+      //               />
+      //               <rect
+      //                 id="SwitchForeground_2"
+      //                 x="550"
+      //                 y="212"
+      //                 width="12"
+      //                 height="8"
+      //                 rx="1"
+      //                 fill="#79C698"
+      //               />
+      //             </g>
+      //             <rect
+      //               id="Description_2"
+      //               x="304"
+      //               y="212"
+      //               width="202"
+      //               height="32"
+      //               rx="1"
+      //               fill="#B7BBBD"
+      //             />
+      //             <rect
+      //               id="Title_2"
+      //               x="182"
+      //               y="212"
+      //               width="98"
+      //               height="8"
+      //               rx="1"
+      //               fill="#B7BBBD"
+      //             />
+      //           </g>
+      //           <path
+      //             id="Web_Application_Firewall"
+      //             d="M177.707 110.355H177.871L181.504 123H183.977L188.547 106.09H185.816L182.723 119.238H182.559L179.008 106.09H176.57L173.043 119.238H172.879L169.773 106.09H167.043L171.602 123H174.086L177.707 110.355ZM198.531 119.59C198.062 120.621 197.02 121.184 195.496 121.184C193.48 121.184 192.18 119.73 192.098 117.422V117.305H201.109V116.438C201.109 112.453 198.965 110.027 195.414 110.027C191.816 110.027 189.531 112.617 189.531 116.66C189.531 120.727 191.77 123.246 195.426 123.246C198.344 123.246 200.406 121.84 200.957 119.59H198.531ZM195.402 112.078C197.266 112.078 198.484 113.426 198.543 115.488H192.098C192.238 113.438 193.539 112.078 195.402 112.078ZM210.895 123.211C214.117 123.211 216.168 120.645 216.168 116.637C216.168 112.594 214.129 110.051 210.895 110.051C209.148 110.051 207.648 110.906 206.969 112.289H206.77V105.281H204.25V123H206.676V120.984H206.863C207.625 122.391 209.113 123.211 210.895 123.211ZM210.168 112.207C212.301 112.207 213.578 113.883 213.578 116.637C213.578 119.391 212.301 121.055 210.168 121.055C208.047 121.055 206.734 119.367 206.723 116.637C206.734 113.906 208.059 112.207 210.168 112.207ZM237.004 123H239.793L233.688 106.09H230.863L224.758 123H227.453L229.012 118.43H235.457L237.004 123ZM232.141 109.078H232.34L234.789 116.32H229.68L232.141 109.078ZM249.074 110.051C247.34 110.051 245.84 110.93 245.066 112.383H244.879V110.273H242.453V127.242H244.973V121.078H245.172C245.84 122.426 247.281 123.211 249.098 123.211C252.32 123.211 254.371 120.656 254.371 116.637C254.371 112.594 252.32 110.051 249.074 110.051ZM248.359 121.055C246.25 121.055 244.926 119.355 244.926 116.637C244.926 113.906 246.25 112.207 248.371 112.207C250.504 112.207 251.781 113.871 251.781 116.637C251.781 119.402 250.504 121.055 248.359 121.055ZM264.027 110.051C262.293 110.051 260.793 110.93 260.02 112.383H259.832V110.273H257.406V127.242H259.926V121.078H260.125C260.793 122.426 262.234 123.211 264.051 123.211C267.273 123.211 269.324 120.656 269.324 116.637C269.324 112.594 267.273 110.051 264.027 110.051ZM263.312 121.055C261.203 121.055 259.879 119.355 259.879 116.637C259.879 113.906 261.203 112.207 263.324 112.207C265.457 112.207 266.734 113.871 266.734 116.637C266.734 119.402 265.457 121.055 263.312 121.055ZM272.477 123H274.996V105.281H272.477V123ZM280.082 108C280.961 108 281.676 107.285 281.676 106.418C281.676 105.539 280.961 104.824 280.082 104.824C279.203 104.824 278.488 105.539 278.488 106.418C278.488 107.285 279.203 108 280.082 108ZM278.828 123H281.336V110.273H278.828V123ZM295.844 114.363C295.516 111.891 293.582 110.027 290.383 110.027C286.668 110.027 284.406 112.547 284.406 116.59C284.406 120.715 286.68 123.246 290.395 123.246C293.547 123.246 295.516 121.477 295.844 118.969H293.395C293.066 120.352 291.977 121.102 290.383 121.102C288.285 121.102 286.984 119.402 286.984 116.59C286.984 113.836 288.273 112.172 290.383 112.172C292.07 112.172 293.102 113.121 293.395 114.363H295.844ZM302.254 123.211C303.93 123.211 305.324 122.484 306.086 121.195H306.285V123H308.711V114.293C308.711 111.621 306.906 110.027 303.707 110.027C300.812 110.027 298.75 111.422 298.492 113.566H300.93C301.211 112.641 302.184 112.113 303.59 112.113C305.312 112.113 306.203 112.898 306.203 114.293V115.406L302.746 115.617C299.711 115.805 298 117.129 298 119.414C298 121.734 299.793 123.211 302.254 123.211ZM302.898 121.184C301.527 121.184 300.531 120.492 300.531 119.309C300.531 118.148 301.328 117.527 303.086 117.41L306.203 117.199V118.301C306.203 119.941 304.797 121.184 302.898 121.184ZM313.188 107.062V110.309H311.16V112.324H313.188V119.648C313.188 122.098 314.301 123.082 317.102 123.082C317.594 123.082 318.062 123.023 318.473 122.953V120.949C318.121 120.984 317.898 121.008 317.512 121.008C316.258 121.008 315.707 120.41 315.707 119.039V112.324H318.473V110.309H315.707V107.062H313.188ZM322.738 108C323.617 108 324.332 107.285 324.332 106.418C324.332 105.539 323.617 104.824 322.738 104.824C321.859 104.824 321.145 105.539 321.145 106.418C321.145 107.285 321.859 108 322.738 108ZM321.484 123H323.992V110.273H321.484V123ZM333.086 123.246C336.812 123.246 339.098 120.75 339.098 116.637C339.098 112.523 336.801 110.027 333.086 110.027C329.359 110.027 327.062 112.535 327.062 116.637C327.062 120.75 329.348 123.246 333.086 123.246ZM333.086 121.102C330.895 121.102 329.664 119.473 329.664 116.637C329.664 113.801 330.895 112.16 333.086 112.16C335.266 112.16 336.508 113.801 336.508 116.637C336.508 119.461 335.266 121.102 333.086 121.102ZM342.133 123H344.652V115.535C344.652 113.484 345.836 112.219 347.699 112.219C349.562 112.219 350.453 113.25 350.453 115.359V123H352.973V114.762C352.973 111.727 351.402 110.027 348.555 110.027C346.633 110.027 345.367 110.883 344.746 112.289H344.559V110.273H342.133V123ZM366.004 123V115.922H373.27V113.707H366.004V108.352H373.938V106.09H363.379V123H366.004ZM378.355 108C379.234 108 379.949 107.285 379.949 106.418C379.949 105.539 379.234 104.824 378.355 104.824C377.477 104.824 376.762 105.539 376.762 106.418C376.762 107.285 377.477 108 378.355 108ZM377.102 123H379.609V110.273H377.102V123ZM383.312 123H385.832V115.395C385.832 113.602 387.18 112.371 389.09 112.371C389.535 112.371 390.285 112.453 390.496 112.512V110.145C390.227 110.086 389.746 110.051 389.371 110.051C387.707 110.051 386.289 110.953 385.926 112.207H385.738V110.273H383.312V123ZM400.961 119.59C400.492 120.621 399.449 121.184 397.926 121.184C395.91 121.184 394.609 119.73 394.527 117.422V117.305H403.539V116.438C403.539 112.453 401.395 110.027 397.844 110.027C394.246 110.027 391.961 112.617 391.961 116.66C391.961 120.727 394.199 123.246 397.855 123.246C400.773 123.246 402.836 121.84 403.387 119.59H400.961ZM397.832 112.078C399.695 112.078 400.914 113.426 400.973 115.488H394.527C394.668 113.438 395.969 112.078 397.832 112.078ZM423.086 110.273H420.566L418.293 120.094H418.094L415.469 110.273H413.055L410.43 120.094H410.242L407.957 110.273H405.402L408.918 123H411.508L414.133 113.508H414.332L416.969 123H419.582L423.086 110.273ZM428.863 123.211C430.539 123.211 431.934 122.484 432.695 121.195H432.895V123H435.32V114.293C435.32 111.621 433.516 110.027 430.316 110.027C427.422 110.027 425.359 111.422 425.102 113.566H427.539C427.82 112.641 428.793 112.113 430.199 112.113C431.922 112.113 432.812 112.898 432.812 114.293V115.406L429.355 115.617C426.32 115.805 424.609 117.129 424.609 119.414C424.609 121.734 426.402 123.211 428.863 123.211ZM429.508 121.184C428.137 121.184 427.141 120.492 427.141 119.309C427.141 118.148 427.938 117.527 429.695 117.41L432.812 117.199V118.301C432.812 119.941 431.406 121.184 429.508 121.184ZM439.023 123H441.543V105.281H439.023V123ZM445.445 123H447.965V105.281H445.445V123ZM459.238 115.945C459.238 120.199 460.34 123.68 462.625 126.609H464.852C463.152 124.453 461.84 119.953 461.84 115.934C461.84 111.938 463.164 107.426 464.852 105.281H462.625C460.34 108.199 459.238 111.691 459.238 115.945ZM477.777 110.355H477.941L481.574 123H484.047L488.617 106.09H485.887L482.793 119.238H482.629L479.078 106.09H476.641L473.113 119.238H472.949L469.844 106.09H467.113L471.672 123H474.156L477.777 110.355ZM501.402 123H504.191L498.086 106.09H495.262L489.156 123H491.852L493.41 118.43H499.855L501.402 123ZM496.539 109.078H496.738L499.188 116.32H494.078L496.539 109.078ZM509.77 123V115.922H517.035V113.707H509.77V108.352H517.703V106.09H507.145V123H509.77ZM525.801 115.945C525.801 111.703 524.699 108.211 522.426 105.281H520.199C521.887 107.438 523.211 111.938 523.211 115.957C523.211 119.965 521.887 124.465 520.199 126.609H522.426C524.699 123.691 525.801 120.211 525.801 115.945Z"
+      //             fill="#62676A"
+      //           />
+      //         </g>
+      //         <g id="NavBar">
+      //           <g id="NavBar_2">
+      //             <path d="M0 50H800V80H0V50Z" fill="white" />
+      //             <path d="M0 50H800V80H0V50Z" fill="url(#paint0_linear)" />
+      //             <path d="M0 50H800V80H0V50Z" fill="url(#paint1_linear)" />
+      //           </g>
+      //           <g id="Cloudflare_logo">
+      //             <path
+      //               id="Cloud-Left"
+      //               fill-rule="evenodd"
+      //               clip-rule="evenodd"
+      //               d="M49.5528 74.8683C49.8531 73.8392 49.7386 72.8957 49.2383 72.1955C48.7811 71.5523 48.0091 71.1805 47.08 71.1376L29.4851 70.9091C29.3706 70.9091 29.2707 70.8517 29.2134 70.7661C29.1562 70.6804 29.1419 70.5659 29.1705 70.4517C29.2277 70.28 29.3992 70.1515 29.585 70.1371L47.3373 69.9085C49.4384 69.8085 51.7254 68.1076 52.5258 66.0207L53.5406 63.3765C53.5835 63.2621 53.5978 63.1478 53.5693 63.0334C52.4259 57.8593 47.809 54.0001 42.2918 54.0001C37.2035 54.0001 32.8868 57.2875 31.3432 61.847C30.3427 61.1038 29.0704 60.7035 27.6984 60.8323C25.2541 61.0753 23.2959 63.0334 23.0531 65.4776C22.9958 66.1065 23.0387 66.7211 23.1816 67.2929C19.1939 67.4072 16.0063 70.6661 16.0063 74.6824C16.0063 75.0397 16.0349 75.397 16.0778 75.7544C16.1064 75.9259 16.2493 76.0547 16.4209 76.0547H48.8953C49.0811 76.0547 49.2526 75.9259 49.3098 75.7402L49.5528 74.8683Z"
+      //               fill="#F38020"
+      //             />
+      //             <path
+      //               id="Cloud-Right"
+      //               fill-rule="evenodd"
+      //               clip-rule="evenodd"
+      //               d="M55.1556 63.5622C54.9984 63.5622 54.8269 63.5622 54.6697 63.5765C54.5553 63.5765 54.4553 63.6623 54.4124 63.7766L53.7263 66.1636C53.4261 67.1927 53.5405 68.1361 54.0408 68.8365C54.4981 69.4797 55.27 69.8513 56.199 69.8942L59.9439 70.1229C60.0582 70.1229 60.1583 70.18 60.2155 70.2658C60.2726 70.3515 60.2869 70.4802 60.2584 70.5802C60.2012 70.7518 60.0297 70.8804 59.8438 70.8947L55.9418 71.1234C53.8264 71.2236 51.5537 72.9243 50.7533 75.0113L50.4674 75.7401C50.4103 75.8831 50.5103 76.026 50.6675 76.026H64.0747C64.2319 76.026 64.3748 75.9259 64.4177 75.7687C64.6464 74.9398 64.775 74.0678 64.775 73.1673C64.775 67.8788 60.4585 63.5622 55.1556 63.5622Z"
+      //               fill="#FBAE40"
+      //             />
+      //           </g>
+      //         </g>
+      //         <rect
+      //           id="Divider"
+      //           y="48"
+      //           width="800"
+      //           height="2"
+      //           fill="#62676A"
+      //         />
+      //         <g id="BrowserTopBar">
+      //           <path
+      //             id="TopBar"
+      //             d="M0 12C0 5.37258 5.37258 0 12 0H788C794.627 0 800 5.37258 800 12V48H0V12Z"
+      //             fill="#1D1F20"
+      //           />
+      //           <rect
+      //             id="AddressBar"
+      //             x="100"
+      //             y="16"
+      //             width="600"
+      //             height="16"
+      //             rx="8"
+      //             fill="#62676A"
+      //           />
+      //           <g id="WindowControls">
+      //             <rect
+      //               id="WindowClose"
+      //               x="16"
+      //               y="18"
+      //               width="12"
+      //               height="12"
+      //               rx="6"
+      //               fill="#62676A"
+      //             />
+      //             <rect
+      //               id="WindowMinimise"
+      //               x="32"
+      //               y="18"
+      //               width="12"
+      //               height="12"
+      //               rx="6"
+      //               fill="#62676A"
+      //             />
+      //             <rect
+      //               id="WindowMaximise"
+      //               x="48"
+      //               y="18"
+      //               width="12"
+      //               height="12"
+      //               rx="6"
+      //               fill="#62676A"
+      //             />
+      //           </g>
+      //         </g>
+      //       </g>
+      //       <defs>
+      //         <linearGradient
+      //           id="paint0_linear"
+      //           x1="400"
+      //           y1="50"
+      //           x2="400"
+      //           y2="80"
+      //           gradientUnits="userSpaceOnUse"
+      //         >
+      //           <stop stop-color="white" />
+      //           <stop offset="1" stop-color="white" stop-opacity="0" />
+      //         </linearGradient>
+      //         <linearGradient
+      //           id="paint1_linear"
+      //           x1="400"
+      //           y1="50"
+      //           x2="400"
+      //           y2="80"
+      //           gradientUnits="userSpaceOnUse"
+      //         >
+      //           <stop stop-color="white" />
+      //           <stop offset="1" stop-color="white" stop-opacity="0" />
+      //         </linearGradient>
+      //         <clipPath id="clip0">
+      //           <rect width="800" height="540" fill="white" />
+      //         </clipPath>
+      //       </defs>
+      //     </svg>
+      //   </>
+      // }
+
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(Work, {
       svg: /*#__PURE__*/Object(jsx_runtime["jsx"])(jsx_runtime["Fragment"], {
         children: /*#__PURE__*/Object(jsx_runtime["jsxs"])("svg", {
@@ -31367,6 +31509,109 @@ module.exports = function (str) {
 /***/ (function(module, exports) {
 
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "pD3m":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
+/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
+var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
+/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
+var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
+/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
+var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
+
+      
+      
+      
+      
+      
+      
+  
+      
+      const { processEnv } = __webpack_require__("fXeI")
+      processEnv([])
+    
+      
+      const runtimeConfig = {}
+      
+  
+      const appMod = __webpack_require__("1TCz")
+      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
+  
+      const compMod = __webpack_require__("RNiq")
+  
+      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
+      /* harmony default export */ __webpack_exports__["default"] = (Component);
+      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
+      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
+      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
+  
+      // kept for detecting legacy exports
+      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
+      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
+      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
+      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
+  
+      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
+      const _app = App
+  
+      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
+        pageModule: compMod,
+        pageComponent: Component,
+        pageConfig: config,
+        appModule: App,
+        documentModule: __webpack_require__("VDXt"),
+        errorModule: __webpack_require__("/a9y"),
+        notFoundModule: undefined,
+        pageGetStaticProps: getStaticProps,
+        pageGetStaticPaths: getStaticPaths,
+        pageGetServerSideProps: getServerSideProps,
+  
+        assetPrefix: "",
+        canonicalBase: "",
+        generateEtags: true,
+        poweredByHeader: true,
+  
+        runtimeConfig,
+        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
+        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
+  
+        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
+        i18n: undefined,
+        page: "/",
+        buildId: "_bjqiULjKlIVvXRugzVZa",
+        escapedBuildId: "_bjqiULjKlIVvXRugzVZa",
+        basePath: "",
+        pageIsDynamic: false,
+        encodedPreviewProps: {previewModeId:"0764809e6b74bf564c40fe1e17d1bdea",previewModeSigningKey:"e2d10646e62ad24e86c26288d9f622232d468c0aafc35364aa54e0f1abfce7c2",previewModeEncryptionKey:"592a0922e97c9107dc32d5498913c1cd58589afde643a26154342639949f09cf"},
+        experimental: {
+          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
+          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
+        }
+      })
+      
+    
 
 /***/ }),
 

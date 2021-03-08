@@ -14,10 +14,7 @@
       font-weight: 700;
     }
   }
-  h2,
-  .tag {
-    // text-align: left;
-  }
+
   h1 {
     font-family: "DM Sans", sans-serif;
     font-size: 3rem;
@@ -80,6 +77,15 @@
         margin: 4px 0 0 0;
       }
       width: 640px;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .contentWrap {
+    h1,
+    p.tag {
+      color: rgb(255, 255, 255);
     }
   }
 }

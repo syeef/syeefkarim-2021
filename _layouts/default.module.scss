@@ -1,9 +1,29 @@
 .pageContainer {
-  padding: 0 64px;
-  font-size: 1.15rem;
   display: flex;
   justify-content: center;
   .contentWrap {
     max-width: 336px;
+    h1 {
+      font-family: "DM Sans", sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    p.tag {
+      font-size: 1.8rem;
+      padding: 8px 0 0 0;
+      margin: 0 0 32px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pageContainer {
+    .contentWrap {
+      max-width: 640px;
+    }
   }
 }
