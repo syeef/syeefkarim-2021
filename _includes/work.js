@@ -21,7 +21,7 @@ export default function Work({
           <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>
-          <div>Links to more</div>
+          {/* <div>Links to more</div> */}
         </div>
         <div className={styles.visuals}>
           <img src={demo} />

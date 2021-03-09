@@ -582,6 +582,7 @@ export default function Blog(props) {
         }
         title="Major League Hacking"
         tag="Part of the founding team of the European arm."
+        date="March 2014 - October 2017"
         shortDescription={
           <>
             <p>

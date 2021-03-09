@@ -1,8 +1,8 @@
 // _layouts/default.js
 import Head from "next/head";
 import Navbar from "@includes/navbar";
-import Work from "@includes/work";
 import Footer from "@includes/footer";
+import MultipleButtons from "@includes/multipleButtons";
 import { ThemeChanger } from "@includes/theme";
 
 import styles from "./homepage.module.scss";
@@ -36,6 +36,7 @@ export default function HomepageLayout(props) {
           <p className={styles.tag}>
             I'm currently a Product Designer at Cloudflare.
           </p>
+          <MultipleButtons />
         </div>
       </div>
 

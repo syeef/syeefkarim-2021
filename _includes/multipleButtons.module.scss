@@ -1,0 +1,38 @@
+.groupedButtons {
+  button.primary,
+  button.secondary {
+    width: 100%;
+    height: 56px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 16px 0;
+    border-radius: 12px;
+  }
+  .primary {
+    // background: rgba(255, 102, 51, 0.7);
+    background: rgb(255, 160, 40);
+    border: none;
+  }
+  .secondary {
+    background: none;
+    // border: 1px solid rgba(255, 102, 51, 0.7);
+    border: 1px solid rgb(255, 160, 40);
+  }
+  .primary:hover,
+  .secondary:active {
+    background: rgb(142, 88, 22);
+    border: none;
+  }
+  button:first-of-type {
+    margin-top: 32px;
+  }
+  button:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+[data-theme="dark"] {
+}
