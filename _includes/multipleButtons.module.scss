@@ -12,11 +12,13 @@
     // background: rgba(255, 102, 51, 0.7);
     background: rgb(255, 160, 40);
     border: none;
+    color: rgb(0, 0, 0);
   }
   .secondary {
     background: none;
     // border: 1px solid rgba(255, 102, 51, 0.7);
     border: 1px solid rgb(255, 160, 40);
+    color: rgb(0, 0, 0);
   }
   .primary:hover,
   .secondary:active {
@@ -35,4 +37,7 @@
 }
 
 [data-theme="dark"] {
+  .secondary {
+    color: rgb(255, 255, 255);
+  }
 }
