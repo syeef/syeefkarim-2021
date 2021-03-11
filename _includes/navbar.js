@@ -47,21 +47,21 @@ export default function Navbar(props) {
                 <a>Home</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>About</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/notes">
                 <a>Notes</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>Contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       )}
@@ -78,21 +78,21 @@ export default function Navbar(props) {
               <a>Home</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/">
               <a>About</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/notes">
               <a>Notes</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/">
               <a>Contact</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
