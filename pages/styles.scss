@@ -79,3 +79,18 @@ h6 {
 //     min-height: -webkit-fill-available;
 //   }
 // }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 40px 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .projects {
+    height: 55vh;
+    width: 75%;
+    margin: 0 auto;
+  }
+}

@@ -1,5 +1,5 @@
 import HomepageLayout from "@layouts/homepage";
-import Link from "next/link";
+import Card from "@includes/card";
 import Work from "@includes/work";
 import { getConfig, getAllPosts } from "@api";
 
@@ -334,6 +334,14 @@ export default function Blog(props) {
         //   </>
         // }
       />
+      <section className="projects">
+        <Card
+          logo="../images/Trast.svg"
+          title="Trast"
+          description="An interactive playground for picking color combinations."
+          href="https://trast.techingtogether.com"
+        ></Card>
+      </section>
       <Work
         svg={
           <>

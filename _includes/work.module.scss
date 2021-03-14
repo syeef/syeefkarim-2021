@@ -1,5 +1,6 @@
 .work {
   padding: 64px 0 0 0;
+  height: auto;
   .content {
     display: flex;
     flex-direction: column;
@@ -67,7 +68,7 @@
 
 @media only screen and (min-width: 992px) {
   .work {
-    height: 800px;
+    min-height: 800px;
     margin: 32px 64px;
     .content {
       flex-direction: row;
