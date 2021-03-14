@@ -51,6 +51,7 @@
     display: flex;
     justify-content: center;
     .contentWrap {
+      width: 640px;
       div {
         border-bottom: unset;
         margin: 16px 0 0 0;
@@ -61,7 +62,7 @@
         // font-size: unset;
         text-align: center;
       }
-      .tag {
+      p.tag {
         font-size: 1.4rem;
         text-align: center;
       }
@@ -77,7 +78,6 @@
         font-size: unset;
         margin: 4px 0 0 0;
       }
-      width: 640px;
     }
   }
 }

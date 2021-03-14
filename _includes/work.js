@@ -23,10 +23,15 @@ export default function Work({
           </div>
           {/* <div>Links to more</div> */}
         </div>
-        <div className={styles.visuals}>
-          <img src={demo} />
-          <>{svgContent}</>
-        </div>
+
+        {demo ? (
+          <>
+            <div className={styles.visuals}>
+              <img src={demo} />
+              <>{svgContent}</>
+            </div>
+          </>
+        ) : null}
       </div>
     </section>
   );

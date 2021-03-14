@@ -1,4 +1,5 @@
 {
+  "/about": "pages/about.html",
   "/": "pages/index.js",
   "/notes": "pages/notes.js",
   "/notes/[slug]": "pages/notes/[slug].js",

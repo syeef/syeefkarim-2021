@@ -47,11 +47,11 @@ export default function Navbar(props) {
                 <a>Home</a>
               </Link>
             </li>
-            {/* <li>
-              <Link href="/">
+            <li>
+              <Link href="/about">
                 <a>About</a>
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href="/notes">
                 <a>Notes</a>
@@ -78,11 +78,11 @@ export default function Navbar(props) {
               <a>Home</a>
             </Link>
           </li>
-          {/* <li>
-            <Link href="/">
+          <li>
+            <Link href="/about">
               <a>About</a>
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link href="/notes">
               <a>Notes</a>

@@ -1,5 +1,4 @@
 .work {
-  // height: -webkit-fill-available;
   padding: 64px 0 0 0;
   .content {
     display: flex;
@@ -9,9 +8,6 @@
     .logoStyle {
       display: flex;
       justify-content: center;
-      // margin-left: auto;
-      // margin-right: auto;
-      // width: 50%;
     }
     .tag {
       border-top: 1px #000000 solid;
@@ -41,11 +37,31 @@
   margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
-  // width: 50%;
+  position: relative;
   img {
+    position: relative;
     border-radius: 1rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
       0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: conic-gradient(
+      from 217.29deg at 51.63% 52.16%,
+      rgb(36, 0, 255) 0deg,
+      rgb(0, 135, 255) 19.5deg,
+      rgb(255, 29, 122) 102.75deg,
+      rgb(245, 56, 27) 152.25deg,
+      rgb(255, 83, 53) 208.88deg,
+      rgb(105, 30, 255) 291deg
+    );
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(16px);
   }
 }
 
@@ -70,7 +86,6 @@
       .tag {
         width: 40ch;
         font-size: 1.25rem;
-        // margin: 24px 0 0 0;
         padding: 24px 0;
       }
       .date {
@@ -91,6 +106,11 @@
     img {
       transform: perspective(1500px) rotateY(-15deg);
       border-radius: 1rem;
+      // box-shadow: 0px -10px 15px -6px rgba(255, 000, 000, 0.7),
+      //   /* top - THE RED SHADOW */ 0px 5px 15px 6px rgba(000, 255, 000, 0.3),
+      //   /* bottom */ 5px 0px 15px 6px rgba(000, 000, 255, 0.3),
+      //   /* right */ -5px 0px 15px 6px rgba(255, 255, 255, 0.3); /* left */
+
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
         0 4px 6px -2px rgba(0, 0, 0, 0.05);
       transition: transform 1s ease 0s;
@@ -98,6 +118,17 @@
       &:hover {
         transform: perspective(3000px) rotateY(5deg);
       }
+    }
+    &:before {
+      content: "";
+      position: unset;
+      top: unset;
+      left: unset;
+      background: unset;
+      z-index: unset;
+      width: unset;
+      height: unset;
+      filter: unset;
     }
   }
 }
@@ -117,15 +148,48 @@
   }
 }
 
-@keyframes rotate180 {
-  from {
-    transform: rotateZ(0deg);
-  }
-  to {
-    transform: rotateZ(180deg);
-  }
-}
+// .visuals::before,
+// .visuals::after {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   right: -2px;
+//   bottom: -2px;
+//   left: -2px;
+//   background: linear-gradient(
+//     45deg,
+//     #fb0094,
+//     #0000ff,
+//     #00ff00,
+//     #ffff00,
+//     #ff0000,
+//     #fb0094,
+//     #0000ff,
+//     #00ff00,
+//     #ffff00,
+//     #ff0000
+//   );
+//   background-size: 500%;
+//   z-index: -1;
+// }
 
-#Cloudflare_logo {
-  animation: rotate180 5s ease infinite;
-}
+// .visuals::after {
+//   background: conic-gradient(
+//     from 217.29deg at 51.63% 52.16%,
+//     rgb(36, 0, 255) 0deg,
+//     rgb(0, 135, 255) 19.5deg,
+//     rgb(255, 29, 122) 102.75deg,
+//     rgb(245, 56, 27) 152.25deg,
+//     rgb(255, 83, 53) 208.88deg,
+//     rgb(105, 30, 255) 291deg
+//   );
+//   content: "";
+//   position: absolute;
+//   // bottom: -10px;
+//   // left: 5%;
+//   height: 110%;
+//   width: 90%;
+//   filter: blur(25px);
+//   // transform: translateY(30px) scale(0.9);
+//   z-index: -1;
+// }

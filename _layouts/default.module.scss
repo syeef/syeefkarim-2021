@@ -1,8 +1,15 @@
 .pageContainer {
   display: flex;
   justify-content: center;
+  width: auto;
+  img {
+    object-fit: cover;
+    width: 320px;
+    // height: 667px;
+  }
   .contentWrap {
-    max-width: 336px;
+    // max-width: 336px;
+    margin: 16px 40px 0;
     h1 {
       font-family: "DM Sans", sans-serif;
       font-size: 3rem;
@@ -22,8 +29,32 @@
 
 @media only screen and (min-width: 992px) {
   .pageContainer {
+    display: flex;
+    justify-content: center;
     .contentWrap {
       max-width: 640px;
+      div {
+        border-bottom: unset;
+        margin: 16px 0 0 0;
+        font-size: unset;
+        padding: unset;
+      }
+      h1 {
+        text-align: center;
+      }
+      p.tag {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .contentWrap {
+    h1,
+    p.tag {
+      color: rgb(255, 255, 255);
     }
   }
 }

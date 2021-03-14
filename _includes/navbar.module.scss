@@ -52,6 +52,8 @@
       font-weight: 500;
       text-decoration: none;
       padding: 8px;
+      border-radius: 4px;
+      transition: background 0.3s ease;
     }
     a:hover {
       // background: rgba(255, 102, 51, 0.3);
