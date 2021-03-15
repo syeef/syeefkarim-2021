@@ -1,15 +1,11 @@
 .pageContainer {
-  display: flex;
-  justify-content: center;
-  width: auto;
   img {
-    object-fit: cover;
     width: 320px;
-    // height: 667px;
+    align-items: flex-end;
   }
   .contentWrap {
-    // max-width: 336px;
     margin: 16px 40px 0;
+    justify-content: center;
     h1 {
       font-family: "DM Sans", sans-serif;
       font-size: 3rem;
