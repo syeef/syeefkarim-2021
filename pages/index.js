@@ -83,17 +83,20 @@ export default function Blog(props) {
         tag={
           <>
             <p>
-              A dashboard to help customers manage the security and performance
-              of their applications across the Network and Application layers.
+              • A dashboard to help customers manage the security and
+              performance of their applications across the Network and
+              Application layers.
             </p>
             <p>
-              An Android, iOS, macOS, and Windows App to help customers improve
-              the security and performance of their Network connection.
+              • An Android, iOS, macOS, and Windows App to help customers
+              improve the security and performance of their Network connection.
             </p>
           </>
         }
         date="January 2019 - Today"
         shortDescription="Focussed on improving the dashboard experience to manage security products across L7, L3/L4, and the WARP applications."
+        linkText="Read about WARP"
+        detination="/cloudflare-warp"
         demo="../images/Cloudflare_WAF.svg"
         // svgContent={
         //   <>

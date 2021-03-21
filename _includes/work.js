@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./work.module.scss";
 
 export default function Work({
@@ -7,6 +8,8 @@ export default function Work({
   tag,
   date,
   shortDescription,
+  linkText,
+  detination,
   demo,
   svgContent,
 }) {
@@ -21,7 +24,13 @@ export default function Work({
           <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>
-          {/* <div>Links to more</div> */}
+          {linkText ? (
+            <>
+              <Link href={detination}>
+                <a className={styles.link}>{linkText}</a>
+              </Link>
+            </>
+          ) : null}
         </div>
 
         {demo ? (
