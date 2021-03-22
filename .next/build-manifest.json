@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/EWc9frVOhcu-TSV6aQnbf/_buildManifest.js",
-    "static/EWc9frVOhcu-TSV6aQnbf/_ssgManifest.js"
+    "static/8keplmhSvmvOYf4UVUM_u/_buildManifest.js",
+    "static/8keplmhSvmvOYf4UVUM_u/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -39,8 +39,8 @@
       "static/chunks/9f96d65d.f1fbf6a071628d713f93.js",
       "static/chunks/commons.c523f25a56b155b56ded.js",
       "static/chunks/f69af487edfdb8e5b4b27989e2e69dfcd738c945.8f36ae3acf5b02b6c6d1.js",
-      "static/css/7b801c8e0a7a1110f564.css",
-      "static/chunks/pages/about-1336dacd7217cccdbdc3.js"
+      "static/css/4594bd774f93ac088141.css",
+      "static/chunks/pages/about-a57856a0f4feb00e9122.js"
     ],
     "/cloudflare-warp": [
       "static/chunks/main-b50b411c76d1751b2904.js",
@@ -49,8 +49,8 @@
       "static/chunks/9f96d65d.f1fbf6a071628d713f93.js",
       "static/chunks/commons.c523f25a56b155b56ded.js",
       "static/chunks/f69af487edfdb8e5b4b27989e2e69dfcd738c945.8f36ae3acf5b02b6c6d1.js",
-      "static/css/7c63bc89737e5bf723d6.css",
-      "static/chunks/pages/cloudflare-warp-6de07cd55adbd394d914.js"
+      "static/css/3b46e87984ecca0957fb.css",
+      "static/chunks/pages/cloudflare-warp-c98c09e1698a6f11a8cb.js"
     ],
     "/notes": [
       "static/chunks/main-b50b411c76d1751b2904.js",

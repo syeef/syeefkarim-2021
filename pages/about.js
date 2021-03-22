@@ -15,14 +15,6 @@ export default function Blog(props) {
         I'm based in London and currently helping build a better Internet at
         Cloudflare.
       </p>
-      <section>
-        <h5>Work Experience</h5>
-        <ul>
-          <li>2019 - Now | Senior Product Designer at Cloudflare</li>
-          <li>2017 - 2018 | Product Designer at WorldRemit</li>
-          <li>2014 - 2017 | UX Designer at Capital One</li>
-        </ul>
-      </section>
 
       <section>
         <h5>Skills</h5>
@@ -30,6 +22,7 @@ export default function Blog(props) {
           <ul>
             <li>Prototyping</li>
             <li>User Research</li>
+            <li>Motion Design</li>
           </ul>
 
           <ul>
@@ -45,11 +38,26 @@ export default function Blog(props) {
       </section>
 
       <section>
+        <h5>Work Experience</h5>
+        <ul>
+          <li>
+            <span>2019 - Now</span>Senior Product Designer at Cloudflare
+          </li>
+          <li>
+            <span>2017 - 2018</span>Product Designer at WorldRemit
+          </li>
+          <li>
+            <span>2014 - 2017</span>UX Designer at Capital One
+          </li>
+        </ul>
+      </section>
+
+      <section>
         <h5>Education</h5>
         <ul>
           <li>
-            2011 - 2014 | BSc Computer Science at Manchester Metropolitan
-            University
+            <span>2011 - 2014</span>BSc Computer Science at Manchester
+            Metropolitan University
           </li>
         </ul>
       </section>
