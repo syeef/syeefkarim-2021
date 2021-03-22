@@ -39,7 +39,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/about">
                 <a>About</a>
               </Link>
             </li>
@@ -48,11 +48,11 @@ export default function Footer() {
                 <a>Notes</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>Contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
