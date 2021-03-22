@@ -27,7 +27,7 @@ export default function Blog(props) {
 
       <div className={styles.hero}>
         <div className={styles.heroImg3}></div>
-        <div className={styles.heroImg1}></div>
+        <div className={styles.heroImg4}></div>
       </div>
 
       <div className={styles.card}>
@@ -41,23 +41,8 @@ export default function Blog(props) {
         </div>
         <div className={styles.visuals}>
           <div className={styles.cardVisuals}></div>
-          {/* <img src="../images/portfolio/cloudflare-warp/macOS-DARK-MenuTop.svg"></img> */}
         </div>
       </div>
-
-      {/* <div className={styles.card}>
-        <div className={styles.meta}>
-          <h2>Familiar and convenient</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
-            tincidunt ornare massa eget. Sem et tortor consequat id porta.
-          </p>
-        </div>
-        <div className={styles.visuals}>
-          <div className={styles.topCardImage}></div>
-        </div>
-      </div> */}
 
       <div className={styles.moreInformation}>
         <h2>Respecting native platform UI</h2>
