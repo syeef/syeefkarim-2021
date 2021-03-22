@@ -86,7 +86,7 @@
         padding: 0 0 16px 0;
         margin: 32px 0 0 0;
         .cardVisuals {
-          background-image: url("../public/images/portfolio/cloudflare-warp/macOS-DARK-MenuTop.svg");
+          background-image: url("../public/images/portfolio/cloudflare-warp/macOS-LIGHT-MenuTop.svg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: right top;
@@ -114,6 +114,7 @@
         .meta {
           margin: 0 0 32px 0;
           p {
+            margin: 8px 0 0 0;
             max-width: 48ch;
             font-size: 1.25rem;
           }
@@ -218,6 +219,11 @@
       background: #1c1d1f;
       color: #fff;
       .meta {
+      }
+      .visuals {
+        .cardVisuals {
+          background-image: url("../public/images/portfolio/cloudflare-warp/macOS-DARK-MenuTop.svg");
+        }
       }
     }
 

@@ -1,0 +1,80 @@
+.pageContainer {
+  .contentWrap {
+    margin: 16px 40px 0;
+    justify-content: center;
+    font-size: 1.25rem;
+    h1 {
+      font-family: "DM Sans", sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    p.tag {
+      font-size: 1.8rem;
+      padding: 8px 0 0 0;
+      margin: 0 0 32px 0;
+    }
+    .profile {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 32px 0;
+      img {
+        max-width: 40%;
+      }
+    }
+    section {
+      margin: 24px 0;
+      li {
+        padding: 2px 0;
+      }
+    }
+    .skills {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pageContainer {
+    display: flex;
+    justify-content: center;
+    .contentWrap {
+      max-width: 640px;
+      font-size: unset;
+      div {
+        border-bottom: unset;
+        margin: 16px 0 0 0;
+        font-size: unset;
+        padding: unset;
+      }
+      h1 {
+        text-align: center;
+      }
+      p.tag {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+      .skills {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .contentWrap {
+    h1,
+    p.tag {
+      color: rgb(255, 255, 255);
+    }
+  }
+}
