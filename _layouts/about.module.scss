@@ -36,8 +36,8 @@
         span {
           color: #888f96;
           display: inline-block;
-          min-width: 120px;
-          padding: 0 32px 0 0;
+          min-width: 100%;
+          font-size: 1rem;
         }
       }
     }
@@ -69,6 +69,15 @@
       p.tag {
         font-size: 1.4rem;
         text-align: center;
+      }
+      section {
+        li {
+          span {
+            min-width: 120px;
+            padding: 0 32px 0 0;
+            font-size: unset;
+          }
+        }
       }
       .skills {
         margin: 0;
