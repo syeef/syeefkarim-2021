@@ -30,7 +30,7 @@ export default function Blog(props) {
         <div className={styles.heroImg1}></div>
       </div>
 
-      <div className={styles.card}>
+      {/* <div className={styles.card}>
         <div className={styles.meta}>
           <h2>Familiar and convenient</h2>
           <p>
@@ -42,7 +42,7 @@ export default function Blog(props) {
         <div className={styles.visuals}>
           <div className={styles.topCardImage}></div>
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.moreInformation}>
         <h2>Respecting native platform UI</h2>
@@ -56,7 +56,7 @@ export default function Blog(props) {
             </p>
           </div>
           <div className={styles.image}>
-            <img src="../images/portfolio/cloudflare-warp/Windows_Account.png"></img>
+            <img src="../images/portfolio/cloudflare-warp/Windows_Account.svg"></img>
           </div>
         </div>
         <div className={styles.mixedContent}>
@@ -69,7 +69,7 @@ export default function Blog(props) {
             </p>
           </div>
           <div className={styles.image}>
-            <img src="../images/portfolio/cloudflare-warp/macOS_Account.png"></img>
+            <img src="../images/portfolio/cloudflare-warp/macOS_Account.svg"></img>
           </div>
         </div>
         <h2>The structure of the application</h2>

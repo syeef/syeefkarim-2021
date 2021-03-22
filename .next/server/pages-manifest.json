@@ -3,5 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/cloudflare-warp": "pages/cloudflare-warp.js",
-  "/": "pages/index.js"
+  "/notes": "pages/notes.js"
 }
