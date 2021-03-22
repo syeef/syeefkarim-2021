@@ -30,6 +30,21 @@ export default function Blog(props) {
         <div className={styles.heroImg1}></div>
       </div>
 
+      <div className={styles.card}>
+        <div className={styles.meta}>
+          <h2>Familiar and convenient</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
+            tincidunt ornare massa eget. Sem et tortor consequat id porta.
+          </p>
+        </div>
+        <div className={styles.visuals}>
+          <div className={styles.cardVisuals}></div>
+          {/* <img src="../images/portfolio/cloudflare-warp/macOS-DARK-MenuTop.svg"></img> */}
+        </div>
+      </div>
+
       {/* <div className={styles.card}>
         <div className={styles.meta}>
           <h2>Familiar and convenient</h2>
