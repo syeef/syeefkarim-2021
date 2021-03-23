@@ -20,7 +20,7 @@ export default function Blog(props) {
         applications to enforce web gateway policies and monitor device posture.
       </p>
 
-      <div className={styles.hero}>
+      {/* <div className={styles.hero}>
         <div className={styles.heroImg1}></div>
         <div className={styles.heroImg2}></div>
       </div>
@@ -28,8 +28,8 @@ export default function Blog(props) {
       <div className={styles.hero}>
         <div className={styles.heroImg3}></div>
         <div className={styles.heroImg4}></div>
-      </div>
-
+      </div> */}
+      {/* 
       <div className={styles.card}>
         <div className={styles.meta}>
           <h2>Familiar and convenient</h2>
@@ -42,7 +42,7 @@ export default function Blog(props) {
         <div className={styles.visuals}>
           <div className={styles.cardVisuals}></div>
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.moreInformation}>
         <h2>Respecting native platform UI</h2>
