@@ -11,7 +11,7 @@ export default function Blog(props) {
         <img src="../images/portfolio/cloudflare-warp/1DotLogo.png"></img>
       </div>
 
-      <h1>A safer and quicker Internet experience</h1>
+      <h2>A safer and quicker Internet experience</h2>
       <p className={styles.tag}>
         I began working on the 1.1.1.1 / WARP client applications from late
         2019. During this time I led the design of the macOS and Windows desktop
@@ -20,7 +20,7 @@ export default function Blog(props) {
         applications to enforce web gateway policies and monitor device posture.
       </p>
 
-      {/* <div className={styles.hero}>
+      <div className={styles.hero}>
         <div className={styles.heroImg1}></div>
         <div className={styles.heroImg2}></div>
       </div>
@@ -28,7 +28,8 @@ export default function Blog(props) {
       <div className={styles.hero}>
         <div className={styles.heroImg3}></div>
         <div className={styles.heroImg4}></div>
-      </div> */}
+      </div>
+
       {/* 
       <div className={styles.card}>
         <div className={styles.meta}>
@@ -45,10 +46,10 @@ export default function Blog(props) {
       </div> */}
 
       <div className={styles.moreInformation}>
-        <h2>Respecting native platform UI</h2>
+        <h3>Respecting native platform UI</h3>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h3>Windows</h3>
+            <h4>Windows</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -61,7 +62,7 @@ export default function Blog(props) {
         </div>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h3>macOS</h3>
+            <h4>macOS</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -72,10 +73,10 @@ export default function Blog(props) {
             <img src="../images/portfolio/cloudflare-warp/macOS_Account.svg"></img>
           </div>
         </div>
-        <h2>The structure of the application</h2>
+        <h3>The structure of the application</h3>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h3>Simplifying the IA</h3>
+            <h4>Simplifying the IA</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -89,10 +90,10 @@ export default function Blog(props) {
             ></img>
           </div>
         </div>
-        <h2>How we worked</h2>
+        <h3>How we worked</h3>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h3>A distributed team</h3>
+            <h4>A distributed team</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -102,7 +103,7 @@ export default function Blog(props) {
         </div>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h3>Multiple iterations</h3>
+            <h4>Multiple iterations</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
