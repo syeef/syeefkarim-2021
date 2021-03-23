@@ -5,27 +5,6 @@
   }
 }
 
-[data-theme="dark"] {
-  body {
-    // background-color: #1d1f20;
-    // background-color: #090909;
-    background-color: rgb(0, 0, 0);
-    color: rgb(213, 215, 216);
-    // color: #888f96;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  [data-theme="dark"] {
-    body {
-      // background-color: rgb(34, 34, 38);
-      // background-color: #202124;
-      background-color: #0c0c0c;
-      // color: rgb(213, 215, 216);
-    }
-  }
-}
-
 body {
   // background-color: #fafafa;
   font-family: "DM Sans", sans-serif;
@@ -35,13 +14,19 @@ body {
   min-height: -webkit-fill-available;
 }
 
+::selection {
+  background: rgb(255, 160, 40); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(255, 160, 40); /* Gecko Browsers */
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  // font-family: "DM Serif Display", serif;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   margin-block-start: 0em;
@@ -80,13 +65,6 @@ h6 {
   line-height: 1rem;
 }
 
-// @media (max-width: 688px) {
-//   body {
-//     min-width: fit-content;
-//     min-height: -webkit-fill-available;
-//   }
-// }
-
 .projects {
   display: flex;
   flex-direction: column;
@@ -94,10 +72,32 @@ h6 {
   padding: 64px 40px 0;
 }
 
+[data-theme="dark"] {
+  body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(213, 215, 216);
+  }
+  ::selection {
+    background: rgb(142, 88, 22); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: rgb(142, 88, 22); /* Gecko Browsers */
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .projects {
     // min-height: 55vh;
     width: 75%;
     margin: 0 auto;
+  }
+
+  [data-theme="dark"] {
+    body {
+      // background-color: rgb(34, 34, 38);
+      // background-color: #202124;
+      background-color: #0c0c0c;
+      // color: rgb(213, 215, 216);
+    }
   }
 }

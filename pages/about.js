@@ -12,8 +12,9 @@ export default function Blog(props) {
       </div>
       <p>
         Hey, I'm Syeef. I've been designing mobile apps and websites since 2014.
-        I'm based in London and currently helping build a better Internet at
-        Cloudflare.
+        I'm interested in working on products that can help the future of
+        society regarding data privacy and sustainability. I live in London, UK
+        and currently helping build a better Internet at Cloudflare.
       </p>
 
       <section>
