@@ -28,7 +28,7 @@ export default function PortfoliotLayout(props) {
       <main className={styles.pageContainer}>
         <div className={styles.contentWrap}>{props.children}</div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

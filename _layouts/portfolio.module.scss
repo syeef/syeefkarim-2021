@@ -9,8 +9,10 @@
     p.tag {
       font-size: 1.2rem;
       font-weight: 700;
-      padding: 8px 0 0 0;
-      margin: 0 0 32px 0;
+      margin: 24px 0 32px 0;
+      padding: 24px 0;
+      border-top: 1px #000000 solid;
+      border-bottom: 1px #000000 solid;
     }
 
     .hero {
@@ -34,6 +36,15 @@
         flex-grow: 1;
         content: "";
         min-height: 700px;
+      }
+      .heroImg2 {
+        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-MAIN-WARP-ON.png");
+      }
+      .heroImg3 {
+        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Settings.png");
+      }
+      .heroImg4 {
+        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Settings-Share.png");
       }
     }
 
@@ -189,6 +200,8 @@
       p.tag {
         font-size: 1.4rem;
         text-align: center;
+        border-top: unset;
+        border-bottom: unset;
       }
       .hero {
         flex-direction: row;
@@ -226,6 +239,8 @@
     h1,
     p.tag {
       color: rgb(255, 255, 255);
+      border-top: 1px #888f96 solid;
+      border-bottom: 1px #888f96 solid;
     }
     .card {
       background: #1c1d1f;
@@ -240,6 +255,7 @@
     }
 
     .hero {
+      background-image: url("../public/images/portfolio/angular.png");
       .heroImg1 {
         background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-What-is-WARP.png");
       }
@@ -256,7 +272,7 @@
     .moreInformation {
       .mixedContent {
         .image:before {
-          opacity: 0.4;
+          opacity: 0.2;
         }
         .overlay::before {
           background: #1c1d1f;
@@ -266,6 +282,11 @@
   }
   @media only screen and (min-width: 992px) {
     .contentWrap {
+      p.tag {
+        color: rgb(255, 255, 255);
+        border-top: unset;
+        border-bottom: unset;
+      }
       .card {
         background: rgba(0, 0, 0, 0.7);
       }
