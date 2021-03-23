@@ -20,7 +20,7 @@ export default function Work({
           {/* <img className={styles.logoStyle} src={logo} /> */}
           <div className={styles.logoStyle}>{svg}</div>
           <h4 className={styles.tag}>{tag ?? "One line tag"}</h4>
-          {date && <h4 className={styles.date}>{date}</h4>}
+          {date && <span className={styles.date}>{date}</span>}
           <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>

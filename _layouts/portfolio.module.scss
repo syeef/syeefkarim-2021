@@ -119,9 +119,6 @@
     }
 
     .moreInformation {
-      h2 {
-        margin: 16px 0 0 0;
-      }
       .mixedContent {
         display: flex;
         flex-direction: column;
@@ -131,7 +128,7 @@
           p {
             margin: 8px 0 0 0;
             max-width: 48ch;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
           }
         }
         img {
@@ -186,7 +183,7 @@
     .contentWrap {
       max-width: 1080px;
 
-      h1 {
+      h2 {
         text-align: center;
       }
       p.tag {
