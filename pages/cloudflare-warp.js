@@ -30,6 +30,16 @@ export default function Blog(props) {
         <div className={styles.heroImg4}></div>
       </div>
 
+      <div className={styles.hero}>
+        <div className={styles.heroImg5}></div>
+        <div className={styles.heroImg6}></div>
+      </div>
+
+      <div className={styles.hero}>
+        <div className={styles.heroImg7}></div>
+        <div className={styles.heroImg8}></div>
+      </div>
+
       {/* 
       <div className={styles.card}>
         <div className={styles.meta}>
