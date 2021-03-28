@@ -19,6 +19,38 @@ export default function Blog(props) {
         Cloudflare for Teams — allowing businesses to utilise the WARP
         applications to enforce web gateway policies and monitor device posture.
       </p>
+      <div className={styles.details}>
+        <p>
+          <span>Working methodoligies</span>
+          Belonging to the Emerging Technologies and Incubation group at
+          Cloudflare, the development process of WARP highly emphasised
+          speed-to-market above all else. This was the definintion of a
+          "fast-paced environment" — quickly producing development ready specs,
+          clearly outlining any risks or assumptions, and making UX decisions
+          based off of best practice.
+        </p>
+        <div className={styles.specificDetails}>
+          <ul>
+            <span>Available Platforms</span>
+            <li>Andriod</li>
+            <li>iOS</li>
+            <li>macOS</li>
+            <li>Windows</li>
+          </ul>
+          <ul>
+            <span>Total App Installations</span>
+            <li>15+ Million</li>
+          </ul>
+          <ul>
+            <span>Development Team</span>
+            <li>Product Manager</li>
+            <li>Engineering Manager</li>
+            <li>Product Designer</li>
+            <li>Platform Engineers x 4</li>
+            <li>Systems Engineers x 2</li>
+          </ul>
+        </div>
+      </div>
 
       <div className={styles.hero}>
         <div className={styles.heroImg1}></div>
