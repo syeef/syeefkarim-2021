@@ -33,9 +33,7 @@ export default function HomepageLayout(props) {
       <div className={styles.heroMobile}>
         <div className={styles.heroContentMobile}>
           <h1>Hey, I'm Syeef.</h1>
-          <p className={styles.tag}>
-            I'm currently a Product Designer at Cloudflare.
-          </p>
+          <p className={styles.tag}>I'm a Product Designer at Cloudflare.</p>
           <MultipleButtons />
         </div>
       </div>
@@ -44,9 +42,7 @@ export default function HomepageLayout(props) {
         <div className={styles.heroBackground} />
         <div className={styles.heroContent}>
           <h1>Hey, I'm Syeef.</h1>
-          <p className={styles.tag}>
-            I'm currently a Product Designer at Cloudflare.
-          </p>
+          <p className={styles.tag}>I'm a Product Designer at Cloudflare.</p>
         </div>
       </div>
       {/* <ThemeChanger /> */}
