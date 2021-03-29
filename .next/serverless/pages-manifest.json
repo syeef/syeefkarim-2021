@@ -1,5 +1,6 @@
 {
   "/about": "pages/about.html",
+  "/capitalone": "pages/capitalone.html",
   "/cloudflare-warp": "pages/cloudflare-warp.html",
   "/": "pages/index.js",
   "/notes": "pages/notes.js",

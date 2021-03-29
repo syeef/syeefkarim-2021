@@ -3,12 +3,13 @@ import Link from "next/link";
 import Work from "@includes/work";
 import { getConfig, getAllPosts } from "@api";
 import styles from "@layouts/portfolio.module.scss";
+import stylesSpecific from "@layouts/cloudflare-warp.module.scss";
 
 export default function Blog(props) {
   return (
     <PortfolioLayout title={props.title} description={props.description}>
       <div className={styles.logo}>
-        <img src="../images/portfolio/cloudflare-warp/1DotLogo.png"></img>
+        <img src="../images/portfolio/cloudflare-warp/1DotLogo.svg"></img>
       </div>
 
       <h2>A safer and quicker Internet experience</h2>
@@ -31,7 +32,7 @@ export default function Blog(props) {
         </p>
         <div className={styles.specificDetails}>
           <ul>
-            <span>Available Platforms</span>
+            <span>Platforms</span>
             <li>Andriod</li>
             <li>iOS</li>
             <li>macOS</li>
@@ -52,24 +53,24 @@ export default function Blog(props) {
         </div>
       </div>
 
-      <div className={styles.hero}>
-        <div className={styles.heroImg1}></div>
-        <div className={styles.heroImg2}></div>
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg1}></div>
+        <div className={stylesSpecific.heroImg2}></div>
       </div>
 
-      <div className={styles.hero}>
-        <div className={styles.heroImg3}></div>
-        <div className={styles.heroImg4}></div>
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg3}></div>
+        <div className={stylesSpecific.heroImg4}></div>
       </div>
 
-      <div className={styles.hero}>
-        <div className={styles.heroImg5}></div>
-        <div className={styles.heroImg6}></div>
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg5}></div>
+        <div className={stylesSpecific.heroImg6}></div>
       </div>
 
-      <div className={styles.hero}>
-        <div className={styles.heroImg7}></div>
-        <div className={styles.heroImg8}></div>
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg7}></div>
+        <div className={stylesSpecific.heroImg8}></div>
       </div>
 
       {/* 
@@ -152,6 +153,15 @@ export default function Blog(props) {
               tincidunt ornare massa eget. Sem et tortor consequat id porta.
             </p>
           </div>
+        </div>
+
+        <div className={styles.details}>
+          <p>
+            To comply with my non-disclosure agreement, I have omitted and
+            obfuscated confidential and proprietary information. The information
+            in this case study is my own and does not necessarily reflect the
+            views of Cloudflare.
+          </p>
         </div>
       </div>
     </PortfolioLayout>

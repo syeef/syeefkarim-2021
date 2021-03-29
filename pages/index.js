@@ -471,6 +471,8 @@ export default function Blog(props) {
         tag="An Android and iOS Mobile App to help customers manage their account."
         date="August 2014 - April 2017"
         shortDescription="I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information."
+        linkText="Read about Capital One"
+        detination="/capitalone"
         demo="../images/CapitalOne_App.svg"
       />
       <Work

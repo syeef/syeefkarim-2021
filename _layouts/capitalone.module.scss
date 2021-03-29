@@ -1,0 +1,43 @@
+.hero {
+  background-image: url("../public/images/portfolio/angularLight.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin: 0 0 56px 0;
+  .heroImg1,
+  .heroImg2,
+  .heroImg3,
+  .heroImg4 {
+    background-image: url("../public/images/portfolio/capitalone/At-A-Glance.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    flex-grow: 1;
+    content: "";
+    min-height: 700px;
+  }
+  .heroImg2 {
+    background-image: url("../public/images/portfolio/capitalone/Payment.png");
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero {
+    flex-direction: row;
+    background-size: 150%;
+    .heroImg1,
+    .heroImg2,
+    .heroImg3,
+    .heroImg4 {
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .hero {
+    background-image: url("../public/images/portfolio/angular.png");
+  }
+}

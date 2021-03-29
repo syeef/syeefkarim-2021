@@ -24,11 +24,18 @@ export default function Work({
           <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>
-          {linkText ? (
+          {/* {linkText ? (
             <>
               <Link href={detination}>
                 <a className={styles.link}>{linkText}</a>
               </Link>
+            </>
+          ) : null} */}
+          {linkText ? (
+            <>
+              <a href={detination}>
+                <button className={styles.secondary}>{linkText}</button>
+              </a>
             </>
           ) : null}
         </div>

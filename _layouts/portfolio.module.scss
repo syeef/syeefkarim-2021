@@ -5,10 +5,13 @@
       display: flex;
       justify-content: center;
       margin: 0 0 32px 0;
+      img {
+        max-width: 104px;
+      }
     }
     p.tag {
       font-size: 1.2rem;
-      font-weight: 700;
+      font-weight: 400;
       margin: 24px 0 32px 0;
       padding: 24px 0;
       border-top: 1px #000000 solid;
