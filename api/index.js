@@ -14,6 +14,7 @@ export async function getAllPosts() {
       title: meta.data.title,
       publishedDate: meta.data.publishedDate,
       excerpt: meta.data.excerpt,
+      image: meta.data.image,
     });
   }
   const filteredPosts = posts.filter((posts) => posts.publishedDate);
@@ -29,7 +30,9 @@ export async function getPostBySlug(slug) {
   return {
     title: meta.data.title,
     publishedDate: meta.data.publishedDate,
+    excerpt: meta.data.excerpt,
     content: content,
+    image: meta.data.image,
   };
 }
 

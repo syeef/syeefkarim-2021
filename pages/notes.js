@@ -12,14 +12,19 @@ export default function Blog(props) {
       </p>
       {props.posts.map(function (post, idx) {
         return (
-          <div key={idx}>
-            <p className={styles.title}>
-              <Link href={"/notes/" + post.slug}>
-                <a>{post.title}</a>
-              </Link>
-            </p>
-            <p className={styles.excerpt}>{post.excerpt}</p>
-            <p className={styles.publishedDate}>{post.publishedDate}</p>
+          <div key={idx} className={styles.note}>
+            <div className={styles.visuals}>
+              <img src={post.image} />
+            </div>
+            <div className={styles.meta}>
+              <h4 className={styles.title}>
+                <Link href={"/notes/" + post.slug}>
+                  <a>{post.title}</a>
+                </Link>
+              </h4>
+              <p className={styles.excerpt}>{post.excerpt}</p>
+              <p className={styles.publishedDate}>{post.publishedDate}</p>
+            </div>
           </div>
         );
       })}

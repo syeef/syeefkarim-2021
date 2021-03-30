@@ -1,24 +1,32 @@
-import PostLayout from '@layouts/post'
-import { getPostBySlug, getAllPosts } from "@api"
+import PostLayout from "@layouts/post";
+import { getPostBySlug, getAllPosts } from "@api";
 
-export default function Post(props){
-    console.log(props)
-    return <PostLayout title={props.title} publishedDate={props.publishedDate} content={props.content}/>
+export default function Post(props) {
+  console.log(props);
+  return (
+    <PostLayout
+      title={props.title}
+      publishedDate={props.publishedDate}
+      excerpt={props.excerpt}
+      image={props.image}
+      content={props.content}
+    />
+  );
 }
 
-export async function getStaticProps(context){
-    return {
-        props: await getPostBySlug(context.params.slug)
-    }
+export async function getStaticProps(context) {
+  return {
+    props: await getPostBySlug(context.params.slug),
+  };
 }
 
-export async function getStaticPaths(){
-    let paths = await getAllPosts()
-    paths = paths.map(post => ({
-        params: { slug:post.slug }
-    }));
-    return {
-        paths: paths,
-        fallback: false
-    }
+export async function getStaticPaths() {
+  let paths = await getAllPosts();
+  paths = paths.map((post) => ({
+    params: { slug: post.slug },
+  }));
+  return {
+    paths: paths,
+    fallback: false,
+  };
 }

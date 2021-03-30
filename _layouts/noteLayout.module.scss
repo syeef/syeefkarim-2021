@@ -1,21 +1,41 @@
 .contentWrap {
-  // margin: 0 40px;
   margin: 16px 40px 0;
-  div {
-    border-bottom: 1px #888f96 solid;
-    font-size: 1.4rem;
-    // margin: 0 40px;
-    // padding: 0 40px;
-    // margin: 16px 16px 0 16px;
-    // padding: 0 8px 16px 8px;
-    a {
-      // color: #ff6633;
-      color: rgb(255, 160, 40);
-      text-decoration: none;
-      font-weight: 700;
+  width: auto;
+  .note {
+    display: flex;
+    flex-direction: column;
+    .meta {
+      flex: 1;
+      border-bottom: 1px #888f96 solid;
+      a {
+        color: rgb(255, 160, 40);
+        text-decoration: none;
+      }
+      h4.title {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 8px;
+      }
+      .excerpt {
+        font-size: 1.1rem;
+      }
+      .publishedDate {
+        font-family: "DM Mono", monospace;
+        font-size: 0.75rem;
+        margin: 8px 0 24px 0;
+      }
+    }
+    .visuals {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      img {
+        align-self: flex-start;
+        margin: 0 0 24px 0;
+        object-fit: contain;
+      }
     }
   }
-
   h1 {
     font-family: "DM Sans", sans-serif;
     font-size: 3rem;
@@ -30,20 +50,6 @@
     padding: 8px 0 0 0;
     margin: 0 0 32px 0;
   }
-  .title {
-    font-size: 1.5rem;
-    margin-bottom: 8px;
-  }
-  .excerpt {
-    font-size: 1.4rem;
-    line-height: 1.9rem;
-  }
-  .publishedDate {
-    font-family: "DM Mono", monospace;
-    font-size: 1.1rem;
-    margin: 8px 0 24px 0;
-  }
-  width: auto;
 }
 
 @media only screen and (min-width: 992px) {
@@ -52,12 +58,26 @@
     justify-content: center;
     .contentWrap {
       width: 640px;
-      div {
-        border-bottom: unset;
-        margin: 16px 0 0 0;
-        font-size: unset;
-        padding: unset;
+      .note {
+        .meta {
+          border-bottom: unset;
+          margin: 16px 0 0 0;
+          font-size: unset;
+          padding: unset;
+          h4.title {
+            margin-bottom: 4px;
+          }
+          .excerpt {
+            font-size: 1.1rem;
+          }
+          .publishedDate {
+            font-size: 0.8rem;
+          }
+        }
+        .visuals {
+        }
       }
+
       h1 {
         // font-size: unset;
         text-align: center;
@@ -65,18 +85,6 @@
       p.tag {
         font-size: 1.4rem;
         text-align: center;
-      }
-      .title {
-        font-size: unset;
-        margin-bottom: 4px;
-      }
-      .excerpt {
-        font-size: unset;
-        line-height: unset;
-      }
-      .publishedDate {
-        font-size: unset;
-        margin: 4px 0 0 0;
       }
     }
   }
