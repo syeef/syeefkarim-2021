@@ -1,32 +1,11 @@
-// import DefaultLayout from "@layouts/default";
-// import Head from "next/head";
-// import Link from "next/link";
-
-// export default function PostLayout(props) {
-//   return (
-//     <DefaultLayout>
-//       <Head>
-//         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-//         <title>{props.title}</title>
-//       </Head>
-//       <article>
-//         <h1>{props.title}</h1>
-//         <div>{props.excerpt}</div>
-//         <div>{props.publishedDate}</div>
-//         <div dangerouslySetInnerHTML={{ __html: props.content }} />
-//       </article>
-//     </DefaultLayout>
-//   );
-// }
-
 import Head from "next/head";
 import Navbar from "@includes/navbar";
 import Footer from "@includes/footer";
-
 import styles from "./post.module.scss";
 import { useEffect, useRef } from "react";
+import { motion, AnimateSharedLayout } from "framer-motion";
 
-export default function PostLayout(props) {
+export default function PostLayout(props, router) {
   const sentinelRef = useRef(null);
   return (
     <>
@@ -48,7 +27,7 @@ export default function PostLayout(props) {
       <Navbar sentinelRef={sentinelRef} />
       <main className={styles.pageContainer}>
         <article className={styles.contentWrap}>
-          <img src={props.image} />
+          <motion.img layoutId={props.title} src={props.image} />
           <h2>{props.title}</h2>
           <p className={styles.tag}>{props.excerpt}</p>
           <p>{props.publishedDate}</p>

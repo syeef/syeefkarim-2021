@@ -2,6 +2,7 @@ import NoteLayout from "@layouts/noteLayout";
 import Link from "next/link";
 import { getConfig, getAllPosts } from "@api";
 import styles from "@layouts/noteLayout.module.scss";
+import { motion, AnimateSharedLayout } from "framer-motion";
 
 export default function Blog(props) {
   return (
@@ -14,7 +15,7 @@ export default function Blog(props) {
         return (
           <div key={idx} className={styles.note}>
             <div className={styles.visuals}>
-              <img src={post.image} />
+              <motion.img layoutId={post.title} src={post.image} />
             </div>
             <div className={styles.meta}>
               <h4 className={styles.title}>

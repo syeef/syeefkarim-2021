@@ -2,11 +2,11 @@
 import Head from "next/head";
 import Navbar from "@includes/navbar";
 import Footer from "@includes/footer";
-
 import styles from "./noteLayout.module.scss";
 import { useEffect, useRef } from "react";
+import { motion, AnimateSharedLayout } from "framer-motion";
 
-export default function NoteLayout(props) {
+export default function NoteLayout(props, router) {
   const sentinelRef = useRef(null);
   return (
     <>
