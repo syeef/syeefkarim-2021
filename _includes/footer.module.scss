@@ -21,6 +21,8 @@
     }
   }
   .content {
+    margin: 80px 0 0 0;
+    border-top: 1px #000000 solid;
     display: flex;
     flex-direction: column;
     div {
@@ -51,6 +53,8 @@
       }
     }
     .content {
+      margin: unset;
+      border-top: unset;
       display: flex;
       flex-direction: unset;
       justify-content: center;
@@ -78,6 +82,19 @@
     a:hover {
       // color: #ff6633;
       color: rgb(255, 160, 40);
+    }
+    .content {
+      margin: 80px 0 0 0;
+      border-top: 1px #888f96 solid;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .footer {
+      .content {
+        margin: unset;
+        border-top: unset;
+      }
     }
   }
 }
