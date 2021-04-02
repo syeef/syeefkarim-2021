@@ -1,10 +1,17 @@
 ---
-title: "Another Post"
-publishedDate: "2021-03-31"
-excerpt: "I've been wanting a simple, rough and easy way to keep track of different techniques, thoughts and experiments I've been doing."
-image: "../images/blog/ImageTestBlue.png"
+title: "April 2021"
+publishedDate: "2021-04-02"
+excerpt: "Interesting things I learned/found/thought-of/made etc from this month."
+image: "../images/blog/2021-04-02-April.png"
 ---
 
-I can't promise that these posts will be anything amazing. They are however a very low touch method for me to keep track of different projects I'm working on and most importantly to act as a notebook. Not everything I post will be polished, but I do hope that they'll be very specific to key points I'm still trying to understand or simply just often forget.
+Cover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.
 
-Let's go!
+Instructions
+
+1. Angular gradient
+2. Apply a gaussian blur (40px)
+3. Use the smudge tool
+4. Duplicate the layer and apply multiple, adjust the opacity
+5. Add noise
+6. Add text (Font is called ["Lemon Milk"](https://www.dafont.com/lemon-milk.font))
