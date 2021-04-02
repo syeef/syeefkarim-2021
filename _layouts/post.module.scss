@@ -41,9 +41,17 @@
 
 [data-theme="dark"] {
   .contentWrap {
+    p.tag {
+      border-top: 1px #888f96 solid;
+      border-bottom: 1px #888f96 solid;
+    }
   }
   @media only screen and (min-width: 992px) {
     .contentWrap {
+      p.tag {
+        border-top: unset;
+        border-bottom: unset;
+      }
     }
   }
 }
