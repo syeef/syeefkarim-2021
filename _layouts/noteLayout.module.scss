@@ -4,9 +4,9 @@
   .note {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px #888f96 solid;
     .meta {
       flex: 1;
-      border-bottom: 1px #888f96 solid;
       a {
         color: rgb(255, 160, 40);
         text-decoration: none;
@@ -36,6 +36,9 @@
       }
     }
   }
+  div.note:last-of-type {
+    border: unset;
+  }
   h1 {
     font-family: "DM Sans", sans-serif;
     font-size: 3rem;
@@ -59,8 +62,8 @@
     .contentWrap {
       width: 640px;
       .note {
+        border-bottom: unset;
         .meta {
-          border-bottom: unset;
           margin: 16px 0 0 0;
           font-size: unset;
           padding: unset;
