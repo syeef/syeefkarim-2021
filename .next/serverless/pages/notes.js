@@ -103,7 +103,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "BgRb");
+/******/ 	return __webpack_require__(__webpack_require__.s = "AVXp");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -20997,31 +20997,11 @@ module.exports = hash;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: \"April 2021 Review\"\npublishedDate: \"2021-04-02\"\nexcerpt: \"Things I learned/found/thought-of/made etc from this month.\"\nimage: \"../images/blog/2021-04-02-April.png\"\n---\n\n#### Demo\n\n- Nothing to see here\n\n</br>\n\n#### Thoughts\n\n- PixelCloud for Figma\\\n  Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.\n\n</br>\n\n#### Cover photo\n\nCover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.\n\nInstructions\n\n1. Angular gradient\n2. Apply a gaussian blur (40px)\n3. Use the smudge tool\n4. Duplicate the layer and apply multiple, adjust the opacity\n5. Add noise\n6. Add text (Font is called [\"Lemon Milk\"](https://www.dafont.com/lemon-milk.font))\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: \"April 2021 Review\"\npublishedDate: \"2021-04-02\"\nexcerpt: \"Things I learned/found/thought-of/made etc from this month.\"\nimage: \"../images/blog/2021-04-02-April.png\"\n---\n\n#### Demo\n\n- Nothing to see here\n- Plan to make the search cmd+k demo\n\n</br>\n\n#### Thoughts\n\n- PixelCloud for Figma\\\n  Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.\n\n- Sharing Frame from Figma Plugin\\\n  Similar to x, I want to be able to select a frame, use the plugin, and paste. It should place the frame on a neat backgruond, and copy to the clipboard so all I have to do is paste.\n\n- Lighthouse style onboarding for CF\\\n  Performance score and security score...\n\n</br>\n\n#### Cover photo\n\nCover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.\n\nInstructions\n\n1. Angular gradient\n2. Apply a gaussian blur (40px)\n3. Use the smudge tool\n4. Duplicate the layer and apply multiple, adjust the opacity\n5. Add noise\n6. Add text (Font is called [\"Lemon Milk\"](https://www.dafont.com/lemon-milk.font))\n");
 
 /***/ }),
 
-/***/ "AWHq":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-exports.__esModule=true;exports.interopDefault=interopDefault;exports.loadComponents=loadComponents;var _constants=__webpack_require__("w7wo");var _path=__webpack_require__("oyvS");var _require=__webpack_require__("vv4h");function interopDefault(mod){return mod.default||mod;}async function loadComponents(distDir,pathname,serverless){if(serverless){const Component=await(0,_require.requirePage)(pathname,distDir,serverless);let{getStaticProps,getStaticPaths,getServerSideProps}=Component;getStaticProps=await getStaticProps;getStaticPaths=await getStaticPaths;getServerSideProps=await getServerSideProps;const pageConfig=(await Component.config)||{};return{Component,pageConfig,getStaticProps,getStaticPaths,getServerSideProps};}const[DocumentMod,AppMod,ComponentMod]=await Promise.all([(0,_require.requirePage)('/_document',distDir,serverless),(0,_require.requirePage)('/_app',distDir,serverless),(0,_require.requirePage)(pathname,distDir,serverless)]);const[buildManifest,reactLoadableManifest,Component,Document,App]=await Promise.all([__webpack_require__("PJv+")((0,_path.join)(distDir,_constants.BUILD_MANIFEST)),__webpack_require__("PJv+")((0,_path.join)(distDir,_constants.REACT_LOADABLE_MANIFEST)),interopDefault(ComponentMod),interopDefault(DocumentMod),interopDefault(AppMod)]);const{getServerSideProps,getStaticProps,getStaticPaths}=ComponentMod;return{App,Document,Component,buildManifest,reactLoadableManifest,pageConfig:ComponentMod.config||{},getServerSideProps,getStaticProps,getStaticPaths};}
-//# sourceMappingURL=load-components.js.map
-
-/***/ }),
-
-/***/ "AXZJ":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-exports.__esModule=true;exports.htmlEscapeJsonString=htmlEscapeJsonString;// This utility is based on https://github.com/zertosh/htmlescape
-// License: https://github.com/zertosh/htmlescape/blob/0527ca7156a524d256101bb310a9f970f63078ad/LICENSE
-const ESCAPE_LOOKUP={'&':'\\u0026','>':'\\u003e','<':'\\u003c','\u2028':'\\u2028','\u2029':'\\u2029'};const ESCAPE_REGEX=/[&><\u2028\u2029]/g;function htmlEscapeJsonString(str){return str.replace(ESCAPE_REGEX,match=>ESCAPE_LOOKUP[match]);}
-//# sourceMappingURL=htmlescape.js.map
-
-/***/ }),
-
-/***/ "BgRb":
+/***/ "AVXp":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21109,11 +21089,11 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___n
         rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
         i18n: undefined,
         page: "/notes",
-        buildId: "zctWMHxUtSfpuMUvYUpcw",
-        escapedBuildId: "zctWMHxUtSfpuMUvYUpcw",
+        buildId: "FAt2gxr5eE01zSnt4Szb_",
+        escapedBuildId: "FAt2gxr5eE01zSnt4Szb_",
         basePath: "",
         pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"e6a592c2ca831efd839d998939ed6f9d",previewModeSigningKey:"09f6559bca32a541e3b7e06925c6b4a56704d5fffb07e3a8a01e16721072da3b",previewModeEncryptionKey:"65e1245c0fa01a2574dbf0cb438eebb59ca9361aa6ae48bb1d927f096683c75a"},
+        encodedPreviewProps: {previewModeId:"03bec57295033cc1d395ec82e94c909b",previewModeSigningKey:"280d0217d4eaf4d1ec844b47db5173f6675f9335b0761df4fd71c3c1cd8a4525",previewModeEncryptionKey:"ead01e45bf831e70f5d9bbbad41996d930a0e736e8c85d3778afd8bc693d13ae"},
         experimental: {
           onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
           initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -21121,6 +21101,26 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___n
       })
       
     
+
+/***/ }),
+
+/***/ "AWHq":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+exports.__esModule=true;exports.interopDefault=interopDefault;exports.loadComponents=loadComponents;var _constants=__webpack_require__("w7wo");var _path=__webpack_require__("oyvS");var _require=__webpack_require__("vv4h");function interopDefault(mod){return mod.default||mod;}async function loadComponents(distDir,pathname,serverless){if(serverless){const Component=await(0,_require.requirePage)(pathname,distDir,serverless);let{getStaticProps,getStaticPaths,getServerSideProps}=Component;getStaticProps=await getStaticProps;getStaticPaths=await getStaticPaths;getServerSideProps=await getServerSideProps;const pageConfig=(await Component.config)||{};return{Component,pageConfig,getStaticProps,getStaticPaths,getServerSideProps};}const[DocumentMod,AppMod,ComponentMod]=await Promise.all([(0,_require.requirePage)('/_document',distDir,serverless),(0,_require.requirePage)('/_app',distDir,serverless),(0,_require.requirePage)(pathname,distDir,serverless)]);const[buildManifest,reactLoadableManifest,Component,Document,App]=await Promise.all([__webpack_require__("PJv+")((0,_path.join)(distDir,_constants.BUILD_MANIFEST)),__webpack_require__("PJv+")((0,_path.join)(distDir,_constants.REACT_LOADABLE_MANIFEST)),interopDefault(ComponentMod),interopDefault(DocumentMod),interopDefault(AppMod)]);const{getServerSideProps,getStaticProps,getStaticPaths}=ComponentMod;return{App,Document,Component,buildManifest,reactLoadableManifest,pageConfig:ComponentMod.config||{},getServerSideProps,getStaticProps,getStaticPaths};}
+//# sourceMappingURL=load-components.js.map
+
+/***/ }),
+
+/***/ "AXZJ":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+exports.__esModule=true;exports.htmlEscapeJsonString=htmlEscapeJsonString;// This utility is based on https://github.com/zertosh/htmlescape
+// License: https://github.com/zertosh/htmlescape/blob/0527ca7156a524d256101bb310a9f970f63078ad/LICENSE
+const ESCAPE_LOOKUP={'&':'\\u0026','>':'\\u003e','<':'\\u003c','\u2028':'\\u2028','\u2029':'\\u2029'};const ESCAPE_REGEX=/[&><\u2028\u2029]/g;function htmlEscapeJsonString(str){return str.replace(ESCAPE_REGEX,match=>ESCAPE_LOOKUP[match]);}
+//# sourceMappingURL=htmlescape.js.map
 
 /***/ }),
 
@@ -24550,7 +24550,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-e893e522365b6e0e5fa4.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/zctWMHxUtSfpuMUvYUpcw/_buildManifest.js\",\"static/zctWMHxUtSfpuMUvYUpcw/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/css/9257d2eddd4262e4aecc.css\",\"static/chunks/pages/index-25b75858ebefd96828c2.js\"],\"/_app\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/css/1e9f0d1e24437352bcfe.css\",\"static/chunks/pages/_app-b07f353c807caca635c8.js\"],\"/_error\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6fbf84787995e690bea3.js\"],\"/about\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.e361c3ea70a84224bdf7.js\",\"static/css/f372179bd4f07378f46f.css\",\"static/chunks/pages/about-cbed50dfe9294ba2cbe8.js\"],\"/capitalone\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.e361c3ea70a84224bdf7.js\",\"static/css/00433f90c05fab90b238.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/f78da257cbc78458d1fe.css\",\"static/chunks/pages/capitalone-01112f698e59d67c12ce.js\"],\"/cloudflare-warp\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.e361c3ea70a84224bdf7.js\",\"static/css/00433f90c05fab90b238.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7a97f5deb154c8c624ee.css\",\"static/chunks/pages/cloudflare-warp-e57df5e090cb5de9ce84.js\"],\"/notes\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.33b863aee296e9579638.js\",\"static/css/fc264802260ef6629f62.css\",\"static/chunks/pages/notes-34c86d508fa015f389b7.js\"],\"/notes/[slug]\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.33b863aee296e9579638.js\",\"static/css/14acc66e50b06e9974b3.css\",\"static/chunks/pages/notes/[slug]-2c30e2d0ddb908245514.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-e893e522365b6e0e5fa4.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/FAt2gxr5eE01zSnt4Szb_/_buildManifest.js\",\"static/FAt2gxr5eE01zSnt4Szb_/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/css/9257d2eddd4262e4aecc.css\",\"static/chunks/pages/index-25b75858ebefd96828c2.js\"],\"/_app\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/css/1e9f0d1e24437352bcfe.css\",\"static/chunks/pages/_app-b07f353c807caca635c8.js\"],\"/_error\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/pages/_error-6fbf84787995e690bea3.js\"],\"/about\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.a51193dae5d214b41931.js\",\"static/css/f372179bd4f07378f46f.css\",\"static/chunks/pages/about-cbed50dfe9294ba2cbe8.js\"],\"/capitalone\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.a51193dae5d214b41931.js\",\"static/css/00433f90c05fab90b238.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/f78da257cbc78458d1fe.css\",\"static/chunks/pages/capitalone-01112f698e59d67c12ce.js\"],\"/cloudflare-warp\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.f673d10784de9eaf9104.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.a51193dae5d214b41931.js\",\"static/css/00433f90c05fab90b238.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7a97f5deb154c8c624ee.css\",\"static/chunks/pages/cloudflare-warp-e57df5e090cb5de9ce84.js\"],\"/notes\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.33b863aee296e9579638.js\",\"static/css/fc264802260ef6629f62.css\",\"static/chunks/pages/notes-34c86d508fa015f389b7.js\"],\"/notes/[slug]\":[\"static/chunks/main-c050dd3ffc715fbd77ec.js\",\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.9d524150d48315f49e80.js\",\"static/chunks/commons.c523f25a56b155b56ded.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.0ecd42f229d5030673a6.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.33b863aee296e9579638.js\",\"static/css/14acc66e50b06e9974b3.css\",\"static/chunks/pages/notes/[slug]-2c30e2d0ddb908245514.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
