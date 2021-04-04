@@ -9,22 +9,38 @@ export default function Footer() {
         <div>
           <ul>
             <li>
-              <a href="https://twitter.com/syeefk" target="_blank">
+              <a
+                href="https://twitter.com/syeefk"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Twitter
               </a>
             </li>
             <li>
-              <a href="https://dribbble.com/syeef" target="_blank">
+              <a
+                href="https://dribbble.com/syeef"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Dribbble
               </a>
             </li>
             <li>
-              <a href="https://github.com/syeef" target="_blank">
+              <a
+                href="https://github.com/syeef"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>
             </li>
             <li>
-              <a href="https://uk.linkedin.com/in/syeefkarim/" target="_blank">
+              <a
+                href="https://uk.linkedin.com/in/syeefkarim/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
@@ -48,11 +64,6 @@ export default function Footer() {
                 <a>Notes</a>
               </Link>
             </li>
-            {/* <li>
-              <Link href="/">
-                <a>Contact</a>
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>

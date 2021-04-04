@@ -11,6 +11,7 @@ export default function Work({
   linkText,
   detination,
   demo,
+  altText,
   svgContent,
 }) {
   return (
@@ -43,7 +44,7 @@ export default function Work({
         {demo ? (
           <>
             <div className={styles.visuals}>
-              <img src={demo} />
+              <img src={demo} alt={altText ?? "Demo Image"} />
               <>{svgContent}</>
             </div>
           </>

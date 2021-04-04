@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[12],{"/Ze1":function(e,i,n){"use strict";n.r(i),i.default='title: "Syeef Karim"\ndescription: "This blog is powered by Next.js"\n'}}]);

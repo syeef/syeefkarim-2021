@@ -98,6 +98,7 @@ export default function Blog(props) {
         linkText="Read about WARP"
         detination="/cloudflare-warp"
         demo="../images/Cloudflare_WAF.svg"
+        altText="Screenshot of Cloudflare Managed Rules page"
         // svgContent={
         //   <>
         //     <svg
@@ -340,9 +341,11 @@ export default function Blog(props) {
       <section className="projects">
         <Card
           logo="../images/Trast.svg"
+          logoAltText="Trast Logo - circle shape, half black, half white, rotated 45 degress"
           title="Trast"
           description="An interactive playground for picking color combinations."
           href="https://trast.techingtogether.com"
+          demoAltText="Screenshot of Trast website"
         ></Card>
       </section>
       <Work
@@ -398,6 +401,7 @@ export default function Blog(props) {
           </>
         }
         demo="../images/WorldRemit_Transfer.svg"
+        altText="Screenshot of WorldRemit iOS app Send screen"
       />
       <Work
         svg={
@@ -474,6 +478,7 @@ export default function Blog(props) {
         linkText="Read about Capital One"
         detination="/capitalone"
         demo="../images/CapitalOne_App.svg"
+        altText="Screenshot of Capital One iOS app At a glance screen"
       />
       <Work
         svg={
