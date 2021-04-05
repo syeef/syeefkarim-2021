@@ -33,6 +33,11 @@ image: "../images/blog/2021-04-02-April.png"
 
 </br>
 
+- An easy way to send payments to anyone with any currency via a username\
+  Why isn't it possible using Wise or WorldRemit etc to eaily send money in any currency to a user of the same platform.
+
+</br>
+
 #### Cover photo
 
 Cover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.
