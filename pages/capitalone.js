@@ -62,8 +62,8 @@ export default function Blog(props) {
       </div>
 
       <div className={stylesSpecific.hero}>
-        <div className={stylesSpecific.heroImg1}></div>
-        <div className={stylesSpecific.heroImg2}></div>
+        <div className={stylesSpecific.heroImg3}></div>
+        <div className={stylesSpecific.heroImg4}></div>
       </div>
 
       {/* 

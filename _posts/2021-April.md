@@ -7,21 +7,29 @@ image: "../images/blog/2021-04-02-April.png"
 
 #### Demo
 
-- Nothing to see here
 - Plan to make the search cmd+k demo
 
 </br>
 
-#### Thoughts
+#### Ideas/Thoughts
 
 - PixelCloud for Figma\
-  Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.
+   Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.
+
+</br>
 
 - Sharing Frame from Figma Plugin\
-  Similar to x, I want to be able to select a frame, use the plugin, and paste. It should place the frame on a neat backgruond, and copy to the clipboard so all I have to do is paste.
+   Similar to [CleanShot X](https://cleanshot.com/), I want to be able to select a frame, use the plugin, and paste. It should place the frame on a neat backgruond, and copy to the clipboard so all I have to do is paste.
+
+</br>
 
 - Lighthouse style onboarding for CF\
   Performance score and security score...
+
+</br>
+
+- An App to delete multiple posts from Instagram\
+  The existing apps look terrible and seem to only be available on Android - I wonder what's happening on iOS...
 
 </br>
 
