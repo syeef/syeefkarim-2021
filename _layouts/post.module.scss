@@ -17,6 +17,12 @@
       border-top: 1px #000000 solid;
       border-bottom: 1px #000000 solid;
     }
+    a {
+      color: rgb(255, 160, 40);
+    }
+    .date {
+      font-family: "DM Mono", monospace;
+    }
   }
 }
 
@@ -25,7 +31,17 @@
     display: flex;
     justify-content: center;
     .contentWrap {
-      max-width: 640px;
+      max-width: 916px;
+      .content {
+        display: flex;
+        .date {
+          padding: 0 32px 0 0;
+          font-size: 0.8rem;
+        }
+        .article {
+          max-width: 640px;
+        }
+      }
       h2 {
         text-align: center;
       }

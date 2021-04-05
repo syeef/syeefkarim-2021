@@ -30,8 +30,17 @@ export default function PostLayout(props, router) {
           <motion.img layoutId={props.title} src={props.image} />
           <h2>{props.title}</h2>
           <p className={styles.tag}>{props.excerpt}</p>
-          <p>{props.publishedDate}</p>
-          <div dangerouslySetInnerHTML={{ __html: props.content }} />
+          <div className={styles.content}>
+            <div className={styles.date}>
+              <p>
+                Published on <br /> {props.publishedDate}
+              </p>
+            </div>
+            <div
+              className={styles.article}
+              dangerouslySetInnerHTML={{ __html: props.content }}
+            />
+          </div>
         </article>
       </main>
       <Footer />
