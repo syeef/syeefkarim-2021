@@ -7,7 +7,7 @@ image: "../images/blog/2021-04-02-April.png"
 
 #### Demo
 
-- Plan to make the search cmd+k demo
+- <a href="https://cf-2021.syeef.design" target="_blank">cmd+k or Spotlight</a> style search on CF dashboard concept
 
 </br>
 

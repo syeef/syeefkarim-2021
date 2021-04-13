@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { format } from \"d3-format\";\nexport default format(\"$,.2f\");","map":null,"metadata":{},"sourceType":"module"}

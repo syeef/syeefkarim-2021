@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { timeFormat } from \"d3-time-format\";\nexport default timeFormat(\"%b %d\");","map":null,"metadata":{},"sourceType":"module"}

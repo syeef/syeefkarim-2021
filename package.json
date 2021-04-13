@@ -1,5 +1,5 @@
 {
-  "name": "syeefkarim-2020",
+  "name": "syeefkarim-2021",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vx/axis": "^0.0.199",
+    "@vx/vx": "^0.0.199",
     "@zeit/next-sass": "^1.0.1",
     "framer-motion": "^4.0.3",
     "next": "^10.0.3",
