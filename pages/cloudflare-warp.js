@@ -100,6 +100,12 @@ export default function Blog(props) {
             </p>
           </div>
           <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/Windows_General.svg"></img>
+          </div>
+          <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/Windows_Connection.svg"></img>
+          </div>
+          <div className={styles.image}>
             <img src="../images/portfolio/cloudflare-warp/Windows_Account.svg"></img>
           </div>
         </div>

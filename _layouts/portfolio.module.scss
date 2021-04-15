@@ -184,10 +184,11 @@
         img.ia {
           padding: 16px;
         }
+
         .image,
         .overlay {
           max-width: 100%;
-          margin: auto;
+          margin: 16px auto;
           position: relative;
         }
         .image:before,
