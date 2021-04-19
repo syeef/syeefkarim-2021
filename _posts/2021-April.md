@@ -8,6 +8,7 @@ image: "../images/blog/2021-04-02-April.png"
 #### Demo
 
 - <a href="https://cf-2021.syeef.design" target="_blank">cmd+k or Spotlight</a> style search on CF dashboard concept
+- <a href="https://syeef.design/charts" target="_blank">Learning Recharts</a> and how work with pulling data from an API and have play nicely with NextJS and Cloudfalre Pages. I have a feeling running server side functions easily with NextJS isn't supported by Cloudflare Pages yet, although I think it is with Netlify. If it's too much work I'll end up pivoting to a standard Create React App I suppose.
 
 </br>
 
