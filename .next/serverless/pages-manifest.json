@@ -1,7 +1,7 @@
 {
   "/about": "pages/about.html",
   "/capitalone": "pages/capitalone.html",
-  "/charts": "pages/charts.html",
+  "/charts": "pages/charts.js",
   "/cloudflare-warp": "pages/cloudflare-warp.html",
   "/": "pages/index.js",
   "/notes": "pages/notes.js",
