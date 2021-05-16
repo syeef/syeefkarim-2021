@@ -95,7 +95,7 @@ export default function Blog(props) {
         }
         date="January 2019 - Now"
         shortDescription="Our usage and reliance of the Internet has changed a lot from when it was first introduced. Security wasn't initially considered as a priority and since then individuals have become a lot more aware of the value of their data and usage habits. I focussed on improving the dashboard experience specifically of the security products across L7, L3/L4, and the WARP applications."
-        linkText="Read about Network Analytics"
+        linkText="About Network Analytics"
         destination="/cloudflare-warp"
         linkText2="Read about WAF Dashboard"
         destination2="/cloudflare-warp"

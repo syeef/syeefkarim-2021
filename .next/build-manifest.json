@@ -29,6 +29,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/notes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/notes.js"
+    ],
     "/notes/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
