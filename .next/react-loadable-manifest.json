@@ -1,8 +1,8 @@
 {
-  "../config.yml": [
+  "./dev/noop": [
     {
-      "id": "/Ze1",
-      "file": "static/chunks/20.292280e8f7251dfaf423.js"
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 title: "April 2021 Notes"
-publishedDate: "2021-04-02"
+publishedDate: "2021-04-30"
 excerpt: "Things I learned/found/thought-of/made etc from this month."
 image: "../images/blog/2021-04-02-April.png"
 ---

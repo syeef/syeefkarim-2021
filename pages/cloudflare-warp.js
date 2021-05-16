@@ -119,7 +119,19 @@ export default function Blog(props) {
             </p>
           </div>
           <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/macOS_Connection.svg"></img>
+          </div>
+          <div className={styles.image}>
             <img src="../images/portfolio/cloudflare-warp/macOS_Account.svg"></img>
+          </div>
+          <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/macOS_Diagnostics.svg"></img>
+          </div>
+          <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/macOS_Connection-Advanced.svg"></img>
+          </div>
+          <div className={styles.image}>
+            <img src="../images/portfolio/cloudflare-warp/macOS_Connection-WARP_Configuration.svg"></img>
           </div>
         </div>
         <h3>The structure of the application</h3>

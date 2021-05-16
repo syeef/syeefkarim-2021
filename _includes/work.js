@@ -9,7 +9,11 @@ export default function Work({
   date,
   shortDescription,
   linkText,
-  detination,
+  linkText2,
+  linkText3,
+  destination,
+  destination2,
+  destination3,
   demo,
   altText,
   svgContent,
@@ -25,20 +29,24 @@ export default function Work({
           <div className={styles.shortDescription}>
             {shortDescription ?? "Short Description"}
           </div>
-          {/* {linkText ? (
-            <>
-              <Link href={detination}>
-                <a className={styles.link}>{linkText}</a>
-              </Link>
-            </>
-          ) : null} */}
-          {linkText ? (
-            <>
-              <a href={detination}>
-                <button className={styles.secondary}>{linkText}</button>
+
+          <div className={styles.buttons}>
+            {linkText ? (
+              <a className={styles.secondary} href={destination}>
+                {linkText}
               </a>
-            </>
-          ) : null}
+            ) : null}
+            {linkText2 ? (
+              <a className={styles.secondary} href={destination2}>
+                {linkText2}
+              </a>
+            ) : null}
+            {linkText3 ? (
+              <a className={styles.secondary} href={destination3}>
+                {linkText3}
+              </a>
+            ) : null}
+          </div>
         </div>
 
         {demo ? (

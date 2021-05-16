@@ -14,7 +14,7 @@ export default function Card({
         <img src={logo} alt={logoAltText ?? "Logo Alt Text"}></img>
         <h2>{title ?? "Title"}</h2>
         <p>{description ?? "Brief description about the project."}</p>
-        <a href={href ?? "#"} target="_blank">
+        <a href={href ?? "#"} target="_blank" rel="noreferrer">
           Check it out
         </a>
       </div>

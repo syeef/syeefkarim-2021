@@ -95,9 +95,14 @@ export default function Blog(props) {
         }
         date="January 2019 - Now"
         shortDescription="Our usage and reliance of the Internet has changed a lot from when it was first introduced. Security wasn't initially considered as a priority and since then individuals have become a lot more aware of the value of their data and usage habits. I focussed on improving the dashboard experience specifically of the security products across L7, L3/L4, and the WARP applications."
-        linkText="Read about WARP"
-        detination="/cloudflare-warp"
-        demo="../images/Cloudflare_WAF.svg"
+        linkText="Read about Network Analytics"
+        destination="/cloudflare-warp"
+        linkText2="Read about WAF Dashboard"
+        destination2="/cloudflare-warp"
+        linkText3="Read about WARP App"
+        destination3="/cloudflare-warp"
+        demo="../images/Cloudflare_NetworkAnalytics.svg"
+        // demo="../images/Cloudflare_WAF.svg"
         altText="Screenshot of Cloudflare Managed Rules page"
         // svgContent={
         //   <>
@@ -343,7 +348,15 @@ export default function Blog(props) {
           logo="../images/Trast.svg"
           logoAltText="Trast Logo - circle shape, half black, half white, rotated 45 degress"
           title="Trast"
-          description="An interactive playground for picking color combinations."
+          description={
+            <>
+              An interactive playground for picking color combinations. Built by{" "}
+              <a href="https://zahra.dev" target="_blank" rel="noreferrer">
+                Zahra Traboulsi
+              </a>
+              .
+            </>
+          }
           href="https://trast.techingtogether.com"
           demoAltText="Screenshot of Trast website"
         ></Card>
@@ -475,8 +488,8 @@ export default function Blog(props) {
         tag="An Android and iOS Mobile App to help customers manage their account."
         date="August 2014 - April 2017"
         shortDescription="I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information."
-        linkText="Read about Capital One"
-        detination="/capitalone"
+        linkText="Read about Capital One App"
+        destination="/capitalone"
         demo="../images/CapitalOne_App.svg"
         altText="Screenshot of Capital One iOS app At a glance screen"
       />

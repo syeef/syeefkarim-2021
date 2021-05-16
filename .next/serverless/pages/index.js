@@ -6,7 +6,7 @@ module.exports =
 /******/ 	// object to store loaded chunks
 /******/ 	// "0" means "already loaded"
 /******/ 	var installedChunks = {
-/******/ 		7: 0,
+/******/ 		6: 0,
 /******/ 		0: 0,
 /******/ 		1: 0
 /******/ 	};
@@ -103,7 +103,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "g8sv");
+/******/ 	return __webpack_require__(__webpack_require__.s = "OpuD");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -16611,7 +16611,11 @@ function Work({
   date,
   shortDescription,
   linkText,
-  detination,
+  linkText2,
+  linkText3,
+  destination,
+  destination2,
+  destination3,
   demo,
   altText,
   svgContent
@@ -16634,15 +16638,22 @@ function Work({
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
           className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.shortDescription,
           children: shortDescription !== null && shortDescription !== void 0 ? shortDescription : "Short Description"
-        }), linkText ? /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-            href: detination,
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-              className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.secondary,
-              children: linkText
-            })
-          })
-        }) : null]
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+          className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.buttons,
+          children: [linkText ? /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+            className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.secondary,
+            href: destination,
+            children: linkText
+          }) : null, linkText2 ? /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+            className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.secondary,
+            href: destination2,
+            children: linkText2
+          }) : null, linkText3 ? /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+            className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.secondary,
+            href: destination3,
+            children: linkText3
+          }) : null]
+        })]
       }), demo ? /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
           className: _work_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.visuals,
@@ -16970,7 +16981,8 @@ module.exports = new Schema({
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2021-April.md": "9xwl"
+	"./2021-April.md": "9xwl",
+	"./2021-CFTV.md": "gvEq"
 };
 
 function webpackAsyncContext(req) {
@@ -19948,7 +19960,7 @@ module.exports = class Parser {
 /***/ "67Bq":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"../config.yml\":[{\"id\":\"/Ze1\",\"file\":\"static/chunks/20.292280e8f7251dfaf423.js\"}]}");
+module.exports = JSON.parse("{\"../config.yml\":[{\"id\":\"/Ze1\",\"file\":\"static/chunks/19.b17da7321e15aaa73a1a.js\"}]}");
 
 /***/ }),
 
@@ -22748,7 +22760,7 @@ module.exports = hash;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: \"April 2021 Notes\"\npublishedDate: \"2021-04-02\"\nexcerpt: \"Things I learned/found/thought-of/made etc from this month.\"\nimage: \"../images/blog/2021-04-02-April.png\"\n---\n\n#### Demo\n\n- <a href=\"https://cf-2021.syeef.design\" target=\"_blank\">cmd+k or Spotlight</a> style search on CF dashboard concept\n- <a href=\"https://syeef.design/charts\" target=\"_blank\">Learning Recharts</a> and how work with pulling data from an API and have play nicely with NextJS and Cloudfalre Pages. I have a feeling running server side functions easily with NextJS isn't supported by Cloudflare Pages yet, although I think it is with Netlify. If it's too much work I'll end up pivoting to a standard Create React App I suppose.\n\n</br>\n\n#### Ideas/Thoughts\n\n- PixelCloud for Figma\\\n   Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.\n\n</br>\n\n- Sharing Frame from Figma Plugin\\\n   Similar to [CleanShot X](https://cleanshot.com/), I want to be able to select a frame, use the plugin, and paste. It should place the frame on a neat backgruond, and copy to the clipboard so all I have to do is paste.\n\n</br>\n\n- Lighthouse style onboarding for CF\\\n  Performance score and security score...\n\n</br>\n\n- An App to delete multiple posts from Instagram\\\n  The existing apps look terrible and seem to only be available on Android - I wonder what's happening on iOS...\n\n</br>\n\n- An easy way to send payments to anyone with any currency via a username\\\n  Why isn't it possible using Wise or WorldRemit etc to eaily send money in any currency to a user of the same platform.\n\n</br>\n\n#### Cover photo\n\nCover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.\n\nInstructions\n\n1. Angular gradient\n2. Apply a gaussian blur (40px)\n3. Use the smudge tool\n4. Duplicate the layer and apply multiple, adjust the opacity\n5. Add noise\n6. Add text (Font is called [\"Lemon Milk\"](https://www.dafont.com/lemon-milk.font))\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: \"April 2021 Notes\"\npublishedDate: \"2021-04-30\"\nexcerpt: \"Things I learned/found/thought-of/made etc from this month.\"\nimage: \"../images/blog/2021-04-02-April.png\"\n---\n\n#### Demo\n\n- <a href=\"https://cf-2021.syeef.design\" target=\"_blank\">cmd+k or Spotlight</a> style search on CF dashboard concept\n- <a href=\"https://syeef.design/charts\" target=\"_blank\">Learning Recharts</a> and how work with pulling data from an API and have play nicely with NextJS and Cloudfalre Pages. I have a feeling running server side functions easily with NextJS isn't supported by Cloudflare Pages yet, although I think it is with Netlify. If it's too much work I'll end up pivoting to a standard Create React App I suppose.\n\n</br>\n\n#### Ideas/Thoughts\n\n- PixelCloud for Figma\\\n   Steph Engle shared a [Tweet](https://twitter.com/Soengle/status/1378046573351858178) explaing how PixelCloud (similar to Wake... a feed of screenshots of what people are working on, giving the opporunity to comment) was used at FB. An idea using Figma could to be create a plugin which shares either a file or frame to a app where users can comment etc.\n\n</br>\n\n- Sharing Frame from Figma Plugin\\\n   Similar to [CleanShot X](https://cleanshot.com/), I want to be able to select a frame, use the plugin, and paste. It should place the frame on a neat backgruond, and copy to the clipboard so all I have to do is paste.\n\n</br>\n\n- Lighthouse style onboarding for CF\\\n  Performance score and security score...\n\n</br>\n\n- An App to delete multiple posts from Instagram\\\n  The existing apps look terrible and seem to only be available on Android - I wonder what's happening on iOS...\n\n</br>\n\n- An easy way to send payments to anyone with any currency via a username\\\n  Why isn't it possible using Wise or WorldRemit etc to eaily send money in any currency to a user of the same platform.\n\n</br>\n\n#### Cover photo\n\nCover photo for this month was made using Photoshop - although I'm sure Illustrator can be used as well.\n\nInstructions\n\n1. Angular gradient\n2. Apply a gaussian blur (40px)\n3. Use the smudge tool\n4. Duplicate the layer and apply multiple, adjust the opacity\n5. Add noise\n6. Add text (Font is called [\"Lemon Milk\"](https://www.dafont.com/lemon-milk.font))\n");
 
 /***/ }),
 
@@ -26455,7 +26467,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-5ba9c403cc30e4733b64.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/RLBT95HNgoq4ZIaRrSv6G/_buildManifest.js\",\"static/RLBT95HNgoq4ZIaRrSv6G/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/4e7dd0878114f9a9a7c4a92ce5ada86d35d43fb4.c05085df752bcf184c8a.js\",\"static/css/03067e0c6a64cd7bb595.css\",\"static/chunks/pages/index-2c156ab3fbebd4d78b73.js\"],\"/_app\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.efd3c5da95b59f791f3b.js\",\"static/css/5d5b070507acfed3bb46.css\",\"static/chunks/pages/_app-c29f94472a3b89e03ad5.js\"],\"/_error\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/pages/_error-f04a811b645afc16469d.js\"],\"/about\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/4e7dd0878114f9a9a7c4a92ce5ada86d35d43fb4.c05085df752bcf184c8a.js\",\"static/chunks/ecef33e99cb71288021d54d4eef293c52834f4bf.44cd2d6f9e8d09e33267.js\",\"static/css/78e5d9f36369171d5e55.css\",\"static/chunks/pages/about-efab6246a13bb177de08.js\"],\"/capitalone\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/4e7dd0878114f9a9a7c4a92ce5ada86d35d43fb4.c05085df752bcf184c8a.js\",\"static/chunks/ecef33e99cb71288021d54d4eef293c52834f4bf.44cd2d6f9e8d09e33267.js\",\"static/css/bbcd0dd7f1c327fe9480.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7cc5c74d7aff01bf7542.css\",\"static/chunks/pages/capitalone-e67a886ab7eed4680ca9.js\"],\"/charts\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/4e7dd0878114f9a9a7c4a92ce5ada86d35d43fb4.c05085df752bcf184c8a.js\",\"static/chunks/ecef33e99cb71288021d54d4eef293c52834f4bf.44cd2d6f9e8d09e33267.js\",\"static/css/78e5d9f36369171d5e55.css\",\"static/chunks/pages/charts-c67e658d2cde431d764b.js\"],\"/cloudflare-warp\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/4e7dd0878114f9a9a7c4a92ce5ada86d35d43fb4.c05085df752bcf184c8a.js\",\"static/chunks/ecef33e99cb71288021d54d4eef293c52834f4bf.44cd2d6f9e8d09e33267.js\",\"static/css/bbcd0dd7f1c327fe9480.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7a97f5deb154c8c624ee.css\",\"static/chunks/pages/cloudflare-warp-e1f8c9e0d59a4f0c89d9.js\"],\"/notes\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.efd3c5da95b59f791f3b.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.f4fbda1234139ea6c8ae.js\",\"static/css/4681ac479858e0f1a3cf.css\",\"static/chunks/pages/notes-b03831c71ce2c4e80db8.js\"],\"/notes/[slug]\":[\"static/chunks/webpack-6d9509ab906b3e6267de.js\",\"static/chunks/framework.6fff953eb0f638171baa.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.efd3c5da95b59f791f3b.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.f4fbda1234139ea6c8ae.js\",\"static/css/d17f24e9082621ebc2d7.css\",\"static/chunks/pages/notes/[slug]-a40efe9a8ea8e2466440.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-e893e522365b6e0e5fa4.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/GTliFEh6Yh2BsWVPHHHfz/_buildManifest.js\",\"static/GTliFEh6Yh2BsWVPHHHfz/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.c8bbe73f7f1034456ef8.js\",\"static/css/2fcfc5a7ac430baf9674.css\",\"static/chunks/pages/index-907c2ef056a24a0742e5.js\"],\"/_app\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.eccde396dccfd5beb119.js\",\"static/css/5d5b070507acfed3bb46.css\",\"static/chunks/pages/_app-85ffba71f71629f350d0.js\"],\"/_error\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/pages/_error-f04a811b645afc16469d.js\"],\"/about\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.c8bbe73f7f1034456ef8.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.55b76121ede0760238fb.js\",\"static/css/0772973f5f75de79e6e9.css\",\"static/chunks/pages/about-11c3bea60052f598c4ae.js\"],\"/capitalone\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.c8bbe73f7f1034456ef8.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.55b76121ede0760238fb.js\",\"static/css/fe938299f537720937ce.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7cc5c74d7aff01bf7542.css\",\"static/chunks/pages/capitalone-b53e52948af48bb9fb49.js\"],\"/cloudflare-warp\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/9f96d65d.e84e24a909b34e545eb6.js\",\"static/chunks/47aab6427e577e9807c44f734bcde0a03df56fe2.c8bbe73f7f1034456ef8.js\",\"static/chunks/effe5f74b19f21a80d45198267c7999abd0c876e.55b76121ede0760238fb.js\",\"static/css/fe938299f537720937ce.css\",\"static/chunks/269dd2003fcd88d6747762f3a62d98549024281e_CSS.dd32408e2471bd10af40.js\",\"static/css/7a97f5deb154c8c624ee.css\",\"static/chunks/pages/cloudflare-warp-51eba52e68ff9505d706.js\"],\"/notes\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.eccde396dccfd5beb119.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.f4fbda1234139ea6c8ae.js\",\"static/css/4681ac479858e0f1a3cf.css\",\"static/chunks/pages/notes-c10a227b79a938eb5a8e.js\"],\"/notes/[slug]\":[\"static/chunks/webpack-783c56e5158d41cf7b21.js\",\"static/chunks/framework.4b81eedf2fcdb09bf521.js\",\"static/chunks/commons.8e1d773a93bc500cff6c.js\",\"static/chunks/main-4ed991bd2898cc9d6d72.js\",\"static/chunks/d753f7eb7b6a0df7d091ca30619e5d820f9499ed.eccde396dccfd5beb119.js\",\"static/chunks/10082a59c911f8fa55408cb9aaf6916a7524a8b8.f4fbda1234139ea6c8ae.js\",\"static/css/d17f24e9082621ebc2d7.css\",\"static/chunks/pages/notes/[slug]-4cb5b7d2315f63a7fa55.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -27265,6 +27277,121 @@ Object.defineProperty(exports, "__esModule", {
 
 /***/ }),
 
+/***/ "OpuD":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
+/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
+var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
+/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
+var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
+/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
+var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
+
+      
+      
+      
+      
+      
+      
+
+      
+      const { processEnv } = __webpack_require__("fXeI")
+      processEnv([])
+    
+      
+      const runtimeConfig = {}
+      
+
+      const documentModule = __webpack_require__("5w0S")
+
+      const appMod = __webpack_require__("1TCz")
+      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
+
+      const compMod = __webpack_require__("RNiq")
+
+      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
+      /* harmony default export */ __webpack_exports__["default"] = (Component);
+      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
+      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
+      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
+
+      // kept for detecting legacy exports
+      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
+      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
+      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
+      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
+
+      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
+      const _app = App
+
+      const combinedRewrites = Array.isArray(private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites)
+        ? private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites
+        : []
+
+      if (!Array.isArray(private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites)) {
+        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.beforeFiles)
+        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.afterFiles)
+        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.fallback)
+      }
+
+      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
+        pageModule: compMod,
+        pageComponent: Component,
+        pageConfig: config,
+        appModule: App,
+        documentModule: documentModule,
+        errorModule: __webpack_require__("/a9y"),
+        notFoundModule: undefined,
+        pageGetStaticProps: getStaticProps,
+        pageGetStaticPaths: getStaticPaths,
+        pageGetServerSideProps: getServerSideProps,
+
+        assetPrefix: "",
+        canonicalBase: "",
+        generateEtags: true,
+        poweredByHeader: true,
+
+        runtimeConfig,
+        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
+        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
+
+        rewrites: combinedRewrites,
+        i18n: undefined,
+        page: "/",
+        buildId: "GTliFEh6Yh2BsWVPHHHfz",
+        escapedBuildId: "GTliFEh6Yh2BsWVPHHHfz",
+        basePath: "",
+        pageIsDynamic: false,
+        encodedPreviewProps: {previewModeId:"400ca2a013f9bede3a15d7f4bcb5b60c",previewModeSigningKey:"3285a2e3c39c897539b394f191bde0e2315b53c28f6c3093ccd48ded285f403f",previewModeEncryptionKey:"d1e54417feedca9fbd49bb3cd7678b7edea96d897d9a0e7b02e8accf784401a3"},
+        experimental: {
+          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
+          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
+        }
+      })
+      
+    
+
+/***/ }),
+
 /***/ "P7XM":
 /***/ (function(module, exports) {
 
@@ -27890,10 +28017,11 @@ module.exports = {
 	"tag": "work_tag__2sRXI",
 	"date": "work_date__3kHth",
 	"shortDescription": "work_shortDescription__31uy8",
-	"link": "work_link__3VnNI",
+	"buttons": "work_buttons__1gkZO",
 	"secondary": "work_secondary__NCYI3",
 	"visuals": "work_visuals__cnPPs",
-	"meta": "work_meta__1bDGV"
+	"meta": "work_meta__1bDGV",
+	"link": "work_link__3VnNI"
 };
 
 
@@ -28106,7 +28234,7 @@ function HomepageLayout(props) {
           children: "Hey, I'm Syeef."
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
           className: homepage_module_default.a.tag,
-          children: "I'm a Product Designer at Cloudflare."
+          children: "I'm a Software Product Designer at Cloudflare."
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])(MultipleButtons, {})]
       })
     }), /*#__PURE__*/Object(jsx_runtime["jsxs"])("div", {
@@ -28119,7 +28247,7 @@ function HomepageLayout(props) {
           children: "Hey, I'm Syeef."
         }), /*#__PURE__*/Object(jsx_runtime["jsx"])("p", {
           className: homepage_module_default.a.tag,
-          children: "I'm a Product Designer at Cloudflare."
+          children: "I'm a Software Product Designer at Cloudflare."
         })]
       })]
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])("main", {
@@ -28161,6 +28289,7 @@ function Card({
       }), /*#__PURE__*/Object(jsx_runtime["jsx"])("a", {
         href: href !== null && href !== void 0 ? href : "#",
         target: "_blank",
+        rel: "noreferrer",
         children: "Check it out"
       })]
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])("div", {
@@ -28259,9 +28388,14 @@ function Blog(props) {
       }),
       date: "January 2019 - Now",
       shortDescription: "Our usage and reliance of the Internet has changed a lot from when it was first introduced. Security wasn't initially considered as a priority and since then individuals have become a lot more aware of the value of their data and usage habits. I focussed on improving the dashboard experience specifically of the security products across L7, L3/L4, and the WARP applications.",
-      linkText: "Read about WARP",
-      detination: "/cloudflare-warp",
-      demo: "../images/Cloudflare_WAF.svg",
+      linkText: "Read about Network Analytics",
+      destination: "/cloudflare-warp",
+      linkText2: "Read about WAF Dashboard",
+      destination2: "/cloudflare-warp",
+      linkText3: "Read about WARP App",
+      destination3: "/cloudflare-warp",
+      demo: "../images/Cloudflare_NetworkAnalytics.svg" // demo="../images/Cloudflare_WAF.svg"
+      ,
       altText: "Screenshot of Cloudflare Managed Rules page" // svgContent={
       //   <>
       //     <svg
@@ -28507,7 +28641,14 @@ function Blog(props) {
         logo: "../images/Trast.svg",
         logoAltText: "Trast Logo - circle shape, half black, half white, rotated 45 degress",
         title: "Trast",
-        description: "An interactive playground for picking color combinations.",
+        description: /*#__PURE__*/Object(jsx_runtime["jsxs"])(jsx_runtime["Fragment"], {
+          children: ["An interactive playground for picking color combinations. Built by", " ", /*#__PURE__*/Object(jsx_runtime["jsx"])("a", {
+            href: "https://zahra.dev",
+            target: "_blank",
+            rel: "noreferrer",
+            children: "Zahra Traboulsi"
+          }), "."]
+        }),
         href: "https://trast.techingtogether.com",
         demoAltText: "Screenshot of Trast website"
       })
@@ -28625,8 +28766,8 @@ function Blog(props) {
       tag: "An Android and iOS Mobile App to help customers manage their account.",
       date: "August 2014 - April 2017",
       shortDescription: "I was involved with the conception, ideation, and user validation of the Android and iOS Apps. Customers can view completed and pending transactions, manage Direct Debit payments, pay using a debit card and update their personal information.",
-      linkText: "Read about Capital One",
-      detination: "/capitalone",
+      linkText: "Read about Capital One App",
+      destination: "/capitalone",
       demo: "../images/CapitalOne_App.svg",
       altText: "Screenshot of Capital One iOS app At a glance screen"
     }), /*#__PURE__*/Object(jsx_runtime["jsx"])(work["a" /* default */], {
@@ -37986,121 +38127,6 @@ module.exports = __webpack_require__("8Kt/")
 
 /***/ }),
 
-/***/ "g8sv":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
-/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
-var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
-/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
-var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
-/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
-var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
-
-      
-      
-      
-      
-      
-      
-
-      
-      const { processEnv } = __webpack_require__("fXeI")
-      processEnv([])
-    
-      
-      const runtimeConfig = {}
-      
-
-      const documentModule = __webpack_require__("5w0S")
-
-      const appMod = __webpack_require__("1TCz")
-      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
-
-      const compMod = __webpack_require__("RNiq")
-
-      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
-      /* harmony default export */ __webpack_exports__["default"] = (Component);
-      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
-      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
-      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
-
-      // kept for detecting legacy exports
-      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
-      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
-      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
-      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
-
-      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
-      const _app = App
-
-      const combinedRewrites = Array.isArray(private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites)
-        ? private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites
-        : []
-
-      if (!Array.isArray(private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites)) {
-        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.beforeFiles)
-        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.afterFiles)
-        combinedRewrites.push(...private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites.fallback)
-      }
-
-      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
-        pageModule: compMod,
-        pageComponent: Component,
-        pageConfig: config,
-        appModule: App,
-        documentModule: documentModule,
-        errorModule: __webpack_require__("/a9y"),
-        notFoundModule: undefined,
-        pageGetStaticProps: getStaticProps,
-        pageGetStaticPaths: getStaticPaths,
-        pageGetServerSideProps: getServerSideProps,
-
-        assetPrefix: "",
-        canonicalBase: "",
-        generateEtags: true,
-        poweredByHeader: true,
-
-        runtimeConfig,
-        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
-        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
-
-        rewrites: combinedRewrites,
-        i18n: undefined,
-        page: "/",
-        buildId: "RLBT95HNgoq4ZIaRrSv6G",
-        escapedBuildId: "RLBT95HNgoq4ZIaRrSv6G",
-        basePath: "",
-        pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"2cab3d8c2bc9f79af045a24b862b90df",previewModeSigningKey:"4488379f5c665466a8a524293578bc00f56aeba62a4ce1f3d54b38c555f28799",previewModeEncryptionKey:"8ba55d145638099e87d4ce2b5bd649f10a9683f805c43875b45af1b76ceb23ab"},
-        experimental: {
-          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
-          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
-        }
-      })
-      
-    
-
-/***/ }),
-
 /***/ "gAB1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38686,6 +38712,15 @@ function getRouteMatcher(routeRegex) {
     return params;
   };
 }
+
+/***/ }),
+
+/***/ "gvEq":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: \"Cloudflare TV Interstitials\"\npublishedDate: \"2021-05-16\"\nexcerpt: \"In July 2020 Cloudflare TV launched — these are some of the interstitial videos I created.\"\nimage: \"../images/blog/2021-05-16-CFTV.png\"\n---\n\n#### Demo\n\n<video width=\"640\" height=\"320\" controls>\n  <source src=\"../video/blog/CFTV.mp4\" type=\"video/mp4\">\nYour browser does not support the video tag.\n</video>\n\n<p>This is one of the earliest cuts I created. I was exploring the idea of drawing an outline around the text and later having that become filled in. This particular render wasn't used in production, but influenced the direction of the next interstitial.</p>\n</br>\n\n<video width=\"640\" height=\"320\" controls>\n  <source src=\"../video/blog/3D_Filled.mp4\" type=\"video/mp4\">\nYour browser does not support the video tag.\n</video>\n\n<p>The Cloudflare TV branding is nod to the vaperwave/synthwave 80s/retro asthetic — we wanted our primary audience to experience nostalgia from their childhood whilst consuming tech/network/Cloudflare related content. With that in mind I used an audio track that felt appropriate and tried to match the movements of the video to that audio.</p>\n</br>\n\n<video width=\"640\" height=\"320\" controls>\n  <source src=\"../video/blog/Outline_Y_StayTuned.mp4\" type=\"video/mp4\">\nYour browser does not support the video tag.\n</video>\n\n<p>Similarly to the pervious videos, I had a mock up of this where the text created a trailing effect as it moved, that demo influenced what the logo for Cloudflare TV ended up looking like  which in turn informed the style of this video.</p>\n</br>\n\n<p>Anyway, this was a fun couple of hours playing in Adobe After Effects and Cinema 4D. I'd like to do some of this work again, but use Blender instead of C4D if possible.</p>\n</br>\n");
 
 /***/ }),
 
@@ -46953,7 +46988,8 @@ module.exports = Mark;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2021-April.md": "9xwl"
+	"./2021-April.md": "9xwl",
+	"./2021-CFTV.md": "gvEq"
 };
 
 
@@ -47031,7 +47067,8 @@ module.exports = require("string_decoder");
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2021-April.md": "9xwl"
+	"./2021-April.md": "9xwl",
+	"./2021-CFTV.md": "gvEq"
 };
 
 function webpackAsyncContext(req) {
