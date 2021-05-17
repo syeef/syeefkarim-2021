@@ -71,55 +71,6 @@
       filter: blur(16px);
     }
 
-    .hero {
-      background-image: url("../public/images/portfolio/angularLight.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 12px;
-      display: flex;
-      flex-direction: column;
-      padding: 8px;
-      margin: 0 0 56px 0;
-      .heroImg1,
-      .heroImg2,
-      .heroImg3,
-      .heroImg4,
-      .heroImg5,
-      .heroImg6,
-      .heroImg7,
-      .heroImg8 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-What-is-WARP.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: center;
-        flex-grow: 1;
-        content: "";
-        min-height: 700px;
-      }
-      .heroImg2 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Install-VPN-Profile.png");
-      }
-      .heroImg3 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-MAIN-WARP-ON.png");
-      }
-      .heroImg4 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-MAIN-1.1.1.1-ON.png");
-      }
-      .heroImg5 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Settings.png");
-      }
-      .heroImg6 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Settings-Share.png");
-      }
-      .heroImg7 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Account-WARP+-Paid.png");
-      }
-      .heroImg8 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-LIGHT-Account-WARP+-Paid-Manage.png");
-      }
-    }
-
     .card {
       display: flex;
       flex-direction: column;
@@ -334,33 +285,6 @@
       }
     }
 
-    .hero {
-      background-image: url("../public/images/portfolio/angular.png");
-      .heroImg1 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-What-is-WARP.png");
-      }
-      .heroImg2 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-Install-VPN-Profile.png");
-      }
-      .heroImg3 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-MAIN-WARP-ON.png");
-      }
-      .heroImg4 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-MAIN-1.1.1.1-ON.png");
-      }
-      .heroImg5 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-Settings.png");
-      }
-      .heroImg6 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-Settings-Share.png");
-      }
-      .heroImg7 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-Account-WARP+-Paid.png");
-      }
-      .heroImg8 {
-        background-image: url("../public/images/portfolio/cloudflare-warp/Q42020-DARK-Account-WARP+-Paid-Manage.png");
-      }
-    }
     .moreInformation {
       .mixedContent {
         .image:before {

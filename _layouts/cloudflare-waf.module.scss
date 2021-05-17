@@ -1,3 +1,30 @@
+.image {
+  max-width: 100%;
+  margin: 16px auto;
+  position: relative;
+}
+
+.image:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: conic-gradient(
+    from 220deg at 51% 52%,
+    #f4e9aa 0deg,
+    #fdad4b 40deg,
+    #f95f77 80deg,
+    #f8b0c0 160deg,
+    #b467e2 240deg,
+    #4c9bf6 320deg
+  );
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  filter: blur(16px);
+}
+
 .hero {
   background-image: url("../public/images/portfolio/angularLight.png");
   background-size: cover;
@@ -7,7 +34,9 @@
   flex-direction: column;
   padding: 8px;
   margin: 0 0 56px 0;
-  .heroImg1 {
+  .heroImg1,
+  .heroImg2,
+  .heroImg3 {
     background-image: url("../public/images/portfolio/cloudflare-waf/WAF.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -15,6 +44,12 @@
     flex-grow: 1;
     content: "";
     min-height: 800px;
+  }
+  .heroImg2 {
+    background-image: url("../public/images/portfolio/cloudflare-waf/WAF-ReviewPage.svg");
+  }
+  .heroImg3 {
+    background-image: url("../public/images/portfolio/cloudflare-waf/WAF-RuleBrowser.svg");
   }
 }
 @media only screen and (min-width: 992px) {
@@ -29,8 +64,8 @@
 [data-theme="dark"] {
   .hero {
     background-image: url("../public/images/portfolio/angular.png");
-    .heroImg1 {
-      background-image: url("../public/images/portfolio/cloudflare-waf/WAF.svg");
-    }
+  }
+  .image:before {
+    opacity: 0.6;
   }
 }

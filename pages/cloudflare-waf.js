@@ -59,6 +59,14 @@ export default function Blog(props) {
         <div className={stylesSpecific.heroImg1}></div>
       </div>
 
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg2}></div>
+      </div>
+
+      <div className={stylesSpecific.hero}>
+        <div className={stylesSpecific.heroImg3}></div>
+      </div>
+
       <div className={styles.moreInformation}>
         <h3>Respecting native platform UI</h3>
         <div className={styles.mixedContent}>
@@ -70,8 +78,8 @@ export default function Blog(props) {
               tincidunt ornare massa eget. Sem et tortor consequat id porta.
             </p>
           </div>
-          <div className={styles.image}>
-            <img src="../images/portfolio/cloudflare-warp/Windows_General.svg"></img>
+          <div className={stylesSpecific.image}>
+            <img src="../images/portfolio/cloudflare-waf/WAF-TagMenuExpanded.svg"></img>
           </div>
         </div>
         <div className={styles.mixedContent}>
@@ -83,8 +91,8 @@ export default function Blog(props) {
               tincidunt ornare massa eget. Sem et tortor consequat id porta.
             </p>
           </div>
-          <div className={styles.image}>
-            <img src="../images/portfolio/cloudflare-warp/macOS_Connection.svg"></img>
+          <div className={stylesSpecific.image}>
+            <img src="../images/portfolio/cloudflare-waf/WAF-TagMenuExpanded.svg"></img>
           </div>
         </div>
         <h3>The structure of the application</h3>
