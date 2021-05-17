@@ -1,0 +1,36 @@
+.hero {
+  background-image: url("../public/images/portfolio/angularLight.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin: 0 0 56px 0;
+  .heroImg1 {
+    background-image: url("../public/images/portfolio/cloudflare-network-analytics/NetworkAnalytics.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    flex-grow: 1;
+    content: "";
+    min-height: 1920px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero {
+    flex-direction: row;
+    background-size: cover;
+    .heroImg1 {
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .hero {
+    background-image: url("../public/images/portfolio/angular.png");
+    .heroImg1 {
+      background-image: url("../public/images/portfolio/cloudflare-network-analytics/NetworkAnalytics.svg");
+    }
+  }
+}
