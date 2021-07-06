@@ -13,14 +13,14 @@ export default function Blog(props) {
       </div>
 
       <h2>
-        Improving the dashboard experience of configuring and managing the WAF
+        Improving the dashboard experience of configuring and managing the Web
+        Application Firewall
       </h2>
       <p className={styles.tag}>
-        I began working on the 1.1.1.1 / WARP client applications from late
-        2019. During this time I led the design of the macOS and Windows desktop
-        apps, aligned the UI across all 4 platforms and integrated with
-        Cloudflare for Teams — allowing businesses to utilise the WARP
-        applications to enforce web gateway policies and monitor device posture.
+        The Cloudflare Web Application Firewall (WAF) was updated during 2020,
+        making it possible for customers to adjust the WAF to meet the specific
+        requirements of their applciations. We updated the dashboard experience
+        to reflect the new capabilities of the WAF.
       </p>
       <div className={styles.details}>
         <p>
@@ -35,22 +35,23 @@ export default function Blog(props) {
         <div className={styles.specificDetails}>
           <ul>
             <span>Platforms</span>
-            <li>Andriod</li>
-            <li>iOS</li>
-            <li>macOS</li>
-            <li>Windows</li>
+            <li>Web browser</li>
           </ul>
           <ul>
             <span>Total App Installations</span>
             <li>15+ Million</li>
           </ul>
           <ul>
-            <span>Development Team</span>
-            <li>Product Manager</li>
-            <li>Engineering Manager</li>
-            <li>Product Designer</li>
-            <li>Platform Engineers x 4</li>
-            <li>Systems Engineers x 2</li>
+            <span>Additional material</span>
+            <li>
+              <a
+                href="https://blog.cloudflare.com/designing-the-new-cloudflare-waf/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Designing the new Cloudflare Web Application Firewall
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -68,10 +69,58 @@ export default function Blog(props) {
       </div>
 
       <div className={styles.moreInformation}>
-        <h3>Respecting native platform UI</h3>
+        <h3>Identifying the tasks customers are trying to complete</h3>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h4>Windows</h4>
+            <p>
+              Cloudflare supports a range of customers — individual developers
+              or hobbyists, small/medium-sized businesses where it’s common for
+              a developer to fulfil multiple roles and responsibilities, through
+              to large global enterprises where often there is an entire
+              department dedicated to information security.
+            </p>
+            <p>
+              To help myself and other members of the product development team
+              better empathise with our range of customers, we use a technique
+              known as Job Stories to further decompose the problem we're
+              solving. Job Stories, unlike user persona or user stories allow us
+              to focus on the users situation, motivation, and desired outcome.
+            </p>
+            <p>
+              We conducted interviews with a handful of customers directly, but
+              we also supplemented them by interviewing members of our Solutions
+              Engineering team. They help customers configure Cloudflare to meet
+              their requirements and therefore have a direct connection to
+              multiple customers themselves. From the various interviews we
+              identified the following job stories among many:
+              <ul>
+                <li>
+                  When onboarding with Cloudflare, I want to quickly turn on the
+                  WAF and use the default settings so I can proceed to
+                  configuring the rest of the Cloudflare features.
+                </li>
+                <li>
+                  When refining and tuning the configuration of my zone, I only
+                  want to configure the rules I’m interested in so I can reduce
+                  the potential number of false positive results.
+                </li>
+              </ul>
+            </p>
+            <h4>“I only want to configure the rules I’m interested in.”</h4>
+            <p>
+              To help myself and other members of the product development team
+              better empathise with our range of customers, we use a technique
+              known as Job Stories to further decompose the problem we're
+              solving. Job Stories, unlike user persona or user stories allow us
+              to focus on the users situation, motivation, and desired outcome.
+            </p>
+          </div>
+        </div>
+
+        <h3>Introducing new Dashboard capabilities</h3>
+        <div className={styles.mixedContent}>
+          <div className={styles.meta}>
+            <h4>Tag management</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -84,7 +133,7 @@ export default function Blog(props) {
         </div>
         <div className={styles.mixedContent}>
           <div className={styles.meta}>
-            <h4>macOS</h4>
+            <h4>Bulk action</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi
@@ -92,7 +141,7 @@ export default function Blog(props) {
             </p>
           </div>
           <div className={stylesSpecific.image}>
-            <img src="../images/portfolio/cloudflare-waf/WAF-TagMenuExpanded.svg"></img>
+            <img src="../images/portfolio/cloudflare-waf/WAF-BulkAction.svg"></img>
           </div>
         </div>
         <h3>The structure of the application</h3>
