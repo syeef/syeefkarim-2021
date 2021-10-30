@@ -9,6 +9,18 @@ $linearGradient: linear-gradient(
   #475a95
 );
 
+$meshGradient: radial-gradient(
+    at 40% 20%,
+    hsla(28, 100%, 74%, 1) 0,
+    transparent 50%
+  ),
+  radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(355, 85%, 93%, 1) 0, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0, transparent 50%);
+
 $conicGradient: conic-gradient(
   at 45% 70%,
   #ce8700,
@@ -39,8 +51,8 @@ $conicGradient: conic-gradient(
 }
 @keyframes rotate-hue {
   from {
-    filter: blur(5px) hue-rotate(-30deg);
-    -webkit-filter: blur(5px) hue-rotate(-30deg);
+    filter: blur(5px) hue-rotate(15deg);
+    -webkit-filter: blur(5px) hue-rotate(15deg);
   }
   to {
     filter: blur(5px) hue-rotate(0deg);
@@ -98,9 +110,11 @@ $conicGradient: conic-gradient(
     position: relative;
   }
   .heroBackground {
-    animation: rotate-hue 60s ease-in-out infinite;
+    animation: rotate-hue 8s ease-in-out infinite;
     animation-direction: alternate;
-    background-image: $conicGradient;
+    // background-image: $conicGradient;
+    background-color: #ff0000;
+    background-image: $meshGradient;
     // background-size: unset;
     display: block;
     position: absolute;
