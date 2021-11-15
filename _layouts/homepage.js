@@ -46,7 +46,6 @@ export default function HomepageLayout(props) {
           <p className={styles.tag}>
             I'm a Software Product Designer at Cloudflare.
           </p>
-          <MultipleButtons />
         </div>
       </div>
 
