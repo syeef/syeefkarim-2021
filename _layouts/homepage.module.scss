@@ -9,17 +9,30 @@ $linearGradient: linear-gradient(
   #475a95
 );
 
+// $meshGradient: radial-gradient(
+//     at 40% 20%,
+//     hsla(28, 100%, 74%, 1) 0,
+//     transparent 50%
+//   ),
+//   radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
+//   radial-gradient(at 0% 50%, hsla(355, 85%, 93%, 1) 0, transparent 50%),
+//   radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0, transparent 50%),
+//   radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
+//   radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0, transparent 50%),
+//   radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0, transparent 50%);
 $meshGradient: radial-gradient(
-    at 40% 20%,
-    hsla(28, 100%, 74%, 1) 0,
-    transparent 50%
+    at 100% 40%,
+    hsla(244, 81%, 63%, 1) 0,
+    transparent 25%
   ),
-  radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
-  radial-gradient(at 0% 50%, hsla(355, 85%, 93%, 1) 0, transparent 50%),
-  radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0, transparent 50%),
-  radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
-  radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0, transparent 50%),
-  radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0, transparent 50%);
+  radial-gradient(at 100% 60%, hsla(233, 42%, 57%, 1) 0, transparent 50%),
+  radial-gradient(at 100% 100%, hsla(254, 61%, 40%, 1) 0, transparent 40%),
+  radial-gradient(at 100% 0%, hsla(22, 100%, 77%, 1) 0, transparent 35%),
+  radial-gradient(at 60% 10%, hsla(8, 73%, 63%, 1) 0, transparent 50%),
+  radial-gradient(at 6% 24%, hsla(340, 61%, 41%, 1) 0, transparent 50%),
+  radial-gradient(at 10% 80%, hsla(326, 50%, 38%, 1) 0, transparent 80%),
+  radial-gradient(at 0% 0%, hsla(2, 57%, 57%, 1) 0, transparent 50%),
+  radial-gradient(at 50% 90%, hsla(263, 27%, 48%, 1) 0, transparent 75%);
 
 $conicGradient: conic-gradient(
   at 45% 70%,
@@ -49,14 +62,24 @@ $conicGradient: conic-gradient(
     background-position: right;
   }
 }
+// @keyframes rotate-hue {
+//   from {
+//     filter: blur(5px) hue-rotate(15deg);
+//     -webkit-filter: blur(5px) hue-rotate(15deg);
+//   }
+//   to {
+//     filter: blur(5px) hue-rotate(0deg);
+//     -webkit-filter: blur(5px) hue-rotate(0deg);
+//   }
+// }
 @keyframes rotate-hue {
   from {
-    filter: blur(5px) hue-rotate(15deg);
-    -webkit-filter: blur(5px) hue-rotate(15deg);
+    filter: blur(5px) hue-rotate(-30deg);
+    -webkit-filter: blur(5px) hue-rotate(-30deg);
   }
   to {
-    filter: blur(5px) hue-rotate(0deg);
-    -webkit-filter: blur(5px) hue-rotate(0deg);
+    filter: blur(5px) hue-rotate(30deg);
+    -webkit-filter: blur(5px) hue-rotate(30deg);
   }
 }
 

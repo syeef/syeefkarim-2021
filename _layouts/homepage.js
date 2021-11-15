@@ -3,11 +3,9 @@ import Head from "next/head";
 import Navbar from "@includes/navbar";
 import Footer from "@includes/footer";
 import MultipleButtons from "@includes/multipleButtons";
-import { ThemeChanger } from "@includes/theme";
 
 import styles from "./homepage.module.scss";
-import { useEffect, useRef } from "react";
-import { useTheme } from "next-themes";
+import { useRef } from "react";
 
 export default function HomepageLayout(props) {
   const sentinelRef = useRef(null);
@@ -48,9 +46,9 @@ export default function HomepageLayout(props) {
           <p className={styles.tag}>
             I'm a Software Product Designer at Cloudflare.
           </p>
+          <MultipleButtons />
         </div>
       </div>
-      {/* <ThemeChanger /> */}
 
       <main className={styles.pageContainer}>
         <div className={styles.contentWrap}>{props.children}</div>
