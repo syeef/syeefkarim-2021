@@ -1,17 +1,3 @@
-// import { useTheme } from "next-themes";
-
-// export const ThemeChanger = () => {
-//   const { theme, setTheme } = useTheme();
-
-//   return (
-//     <div>
-//       The current theme is: {theme}
-//       <button onClick={() => setTheme("light")}>Light Mode</button>
-//       <button onClick={() => setTheme("dark")}>Dark Mode</button>
-//     </div>
-//   );
-// };
-
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
@@ -26,11 +12,12 @@ export const ThemeChanger = () => {
 
   return (
     <div>
-      The current theme is: {theme}
-      <button onClick={() => setTheme("light")}>Light Mode</button>
-      <button onClick={() => setTheme("dark")}>Dark Mode</button>
+      The current theme is: {theme} theme
+      {theme === "dark" ? (
+        <button onClick={() => setTheme("light")}>Use Light Theme</button>
+      ) : (
+        <button onClick={() => setTheme("dark")}>Use Dark Theme</button>
+      )}
     </div>
-
-    // <div style={{ color: resolvedTheme === 'dark' ? white : black }}>
   );
 };
